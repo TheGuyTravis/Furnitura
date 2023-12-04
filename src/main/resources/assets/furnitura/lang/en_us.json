@@ -1,3 +1,7 @@
 {
-  "item.furnitura.tile": "Tile"
+  "item.furnitura.tile": "Tile",
+
+  "block.furnitura.tile_block": "Tile Block",
+
+  "creativetab.furnitura_tab": "Furnitura"
 }
