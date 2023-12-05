@@ -3,5 +3,7 @@
 
   "block.furnitura.tile_block": "Tile Block",
 
-  "creativetab.furnitura_tab": "Furnitura"
+  "creativetab.furnitura_tab": "Furnitura",
+
+  "block.furnitura.drawer": "Drawer"
 }
