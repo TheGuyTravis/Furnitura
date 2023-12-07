@@ -23,6 +23,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TILE);
 
         complexBlock(ModBlocks.DRAWER.get());
+
+        complexBlock(ModBlocks.OAK_TABLE.get());
     }
 
     private ItemModelBuilder complexBlock(Block block) {

@@ -20,6 +20,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         horizontalBlock(ModBlocks.DRAWER.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/drawer")));
+
+        horizontalBlock(ModBlocks.OAK_TABLE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/oak_table")));
     }
 
 

@@ -18,6 +18,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.TILE_BLOCK.get());
 
         this.dropSelf(ModBlocks.DRAWER.get());
+        this.dropSelf(ModBlocks.OAK_TABLE.get());
     }
 
 

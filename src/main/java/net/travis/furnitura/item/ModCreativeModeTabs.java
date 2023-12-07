@@ -21,6 +21,9 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.TILE_BLOCK.get());
 
+                        output.accept(ModBlocks.DRAWER.get());
+                        output.accept(ModBlocks.OAK_TABLE.get());
+
                     }).build());
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
