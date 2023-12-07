@@ -25,6 +25,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         complexBlock(ModBlocks.DRAWER.get());
 
         complexBlock(ModBlocks.OAK_TABLE.get());
+
+        complexBlock(ModBlocks.WOODEN_COUCH_EDGE.get());
+
+        complexBlock(ModBlocks.WOODEN_COUCH_END.get());
     }
 
     private ItemModelBuilder complexBlock(Block block) {

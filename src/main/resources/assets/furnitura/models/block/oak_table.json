@@ -4,7 +4,7 @@
 		"1": "block/oak_log",
 		"2": "block/stripped_oak_log",
 		"3": "block/oak_planks",
-		"particle": "jungle_log"
+		"particle": "block/jungle_log"
 	},
 	"elements": [
 		{

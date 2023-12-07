@@ -6,5 +6,7 @@
   "creativetab.furnitura_tab": "Furnitura",
 
   "block.furnitura.drawer": "Drawer",
-  "block.furnitura.oak_table": "Oak Table"
+  "block.furnitura.oak_table": "Oak Table",
+  "block.furnitura.wooden_couch_edge": "Wooden Couch Edge",
+  "block.furnitura.wooden_couch_end": "Wooden Couch End(Left)"
 }

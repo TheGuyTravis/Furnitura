@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
 
                         output.accept(ModBlocks.DRAWER.get());
                         output.accept(ModBlocks.OAK_TABLE.get());
+                        output.accept(ModBlocks.WOODEN_COUCH_EDGE.get());
+                        output.accept(ModBlocks.WOODEN_COUCH_END.get());
 
                     }).build());
     public static void register(IEventBus eventBus) {

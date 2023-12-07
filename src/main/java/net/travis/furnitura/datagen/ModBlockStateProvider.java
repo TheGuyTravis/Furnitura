@@ -23,6 +23,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         horizontalBlock(ModBlocks.OAK_TABLE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/oak_table")));
+
+        horizontalBlock(ModBlocks.WOODEN_COUCH_EDGE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_edge")));
+
+        horizontalBlock(ModBlocks.WOODEN_COUCH_END.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_end")));
     }
 
 

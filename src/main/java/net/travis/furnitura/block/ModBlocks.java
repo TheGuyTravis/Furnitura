@@ -12,6 +12,8 @@ import net.minecraftforge.registries.RegistryObject;
 import net.travis.furnitura.FurnituraMod;
 import net.travis.furnitura.block.custom.DrawerBlock;
 import net.travis.furnitura.block.custom.OakTableBlock;
+import net.travis.furnitura.block.custom.WoodenCouchEdgeBlock;
+import net.travis.furnitura.block.custom.WoodenCouchEndBlock;
 import net.travis.furnitura.item.ModItems;
 
 import java.util.function.Supplier;
@@ -28,6 +30,12 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> OAK_TABLE = registerBlock("oak_table",
             () -> new OakTableBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> WOODEN_COUCH_EDGE = registerBlock("wooden_couch_edge",
+            () -> new WoodenCouchEdgeBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> WOODEN_COUCH_END = registerBlock("wooden_couch_end",
+            () -> new WoodenCouchEndBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
