@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:warped_stem"
+    },
+    "B": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBA",
+    "BBB"
+  ],
+  "result": {
+    "item": "furnitura:warped_shelf"
+  },
+  "show_notification": true
+}

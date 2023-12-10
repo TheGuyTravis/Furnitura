@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oak_planks"
+    },
+    "B": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "pattern": [
+    "   ",
+    " B ",
+    " A "
+  ],
+  "result": {
+    "item": "furnitura:cussion_low"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:orange_wool"
+    },
+    "B": {
+      "item": "minecraft:oak_planks"
+    },
+    "C": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "  B",
+    "AAA",
+    "CCC"
+  ],
+  "result": {
+    "item": "furnitura:wooden_couch_edge_right_orange"
+  },
+  "show_notification": true
+}

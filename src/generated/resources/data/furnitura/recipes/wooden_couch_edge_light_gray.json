@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:oak_planks"
+    },
+    "C": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BC ",
+    "   "
+  ],
+  "result": {
+    "item": "furnitura:wooden_couch_edge_light_gray"
+  },
+  "show_notification": true
+}

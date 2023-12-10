@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:orange_wool"
+    },
+    "D": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "   ",
+    "CCC",
+    "DDD"
+  ],
+  "result": {
+    "item": "furnitura:couch_extenders_orange"
+  },
+  "show_notification": true
+}

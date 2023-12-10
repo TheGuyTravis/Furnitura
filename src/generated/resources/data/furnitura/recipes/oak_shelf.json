@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oak_log"
+    },
+    "B": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBA",
+    "BBB"
+  ],
+  "result": {
+    "item": "furnitura:oak_shelf"
+  },
+  "show_notification": true
+}

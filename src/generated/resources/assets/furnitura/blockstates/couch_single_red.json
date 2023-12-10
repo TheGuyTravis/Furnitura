@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/couch_single_red"
+    },
+    "facing=south": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 270
+    }
+  }
+}

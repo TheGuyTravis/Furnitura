@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:dark_oak_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BB ",
+    "BBB"
+  ],
+  "result": {
+    "item": "furnitura:dark_oak_shelf_extenders"
+  },
+  "show_notification": true
+}

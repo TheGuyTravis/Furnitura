@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BB ",
+    "BBB"
+  ],
+  "result": {
+    "item": "furnitura:crimson_shelf_extenders"
+  },
+  "show_notification": true
+}

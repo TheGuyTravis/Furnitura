@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_block"
+    },
+    "B": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ABA",
+    "ABA"
+  ],
+  "result": {
+    "item": "furnitura:toast"
+  },
+  "show_notification": true
+}

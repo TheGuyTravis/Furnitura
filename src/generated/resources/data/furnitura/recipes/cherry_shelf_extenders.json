@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BB ",
+    "BBB"
+  ],
+  "result": {
+    "item": "furnitura:cherry_shelf_extenders"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/yellow_couch_extendors",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/yellow_couch_extendors"
+    },
+    "facing=south": {
+      "model": "furnitura:block/yellow_couch_extendors",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/yellow_couch_extendors",
+      "y": 270
+    }
+  }
+}

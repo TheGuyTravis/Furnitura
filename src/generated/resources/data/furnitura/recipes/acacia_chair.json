@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_log"
+    },
+    "B": {
+      "item": "minecraft:acacia_planks"
+    },
+    "C": {
+      "item": "minecraft:acacia_slab"
+    }
+  },
+  "pattern": [
+    "B  ",
+    "BC ",
+    "AAA"
+  ],
+  "result": {
+    "item": "furnitura:acacia_chair"
+  },
+  "show_notification": true
+}

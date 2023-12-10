@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/warped_shelf_extenders",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/warped_shelf_extenders"
+    },
+    "facing=south": {
+      "model": "furnitura:block/warped_shelf_extenders",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/warped_shelf_extenders",
+      "y": 270
+    }
+  }
+}

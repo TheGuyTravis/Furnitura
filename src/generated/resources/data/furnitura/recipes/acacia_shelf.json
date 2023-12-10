@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_log"
+    },
+    "B": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBA",
+    "BBB"
+  ],
+  "result": {
+    "item": "furnitura:acacia_shelf"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oak_planks"
+    },
+    "C": {
+      "item": "minecraft:red_wool"
+    },
+    "D": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "A A",
+    "CCC",
+    "DDD"
+  ],
+  "result": {
+    "item": "furnitura:couch_single_red"
+  },
+  "show_notification": true
+}

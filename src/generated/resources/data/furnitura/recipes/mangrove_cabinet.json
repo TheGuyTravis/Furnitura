@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:mangrove_log"
+    },
+    "B": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "C": {
+      "item": "minecraft:mangrove_slab"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "ACA",
+    "ABA"
+  ],
+  "result": {
+    "item": "furnitura:mangrove_cabinet"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/yellow_wooden_couch_end",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/yellow_wooden_couch_end"
+    },
+    "facing=south": {
+      "model": "furnitura:block/yellow_wooden_couch_end",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/yellow_wooden_couch_end",
+      "y": 270
+    }
+  }
+}

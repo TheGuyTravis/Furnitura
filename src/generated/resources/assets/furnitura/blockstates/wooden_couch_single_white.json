@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/wooden_couch_single_white",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/wooden_couch_single_white"
+    },
+    "facing=south": {
+      "model": "furnitura:block/wooden_couch_single_white",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/wooden_couch_single_white",
+      "y": 270
+    }
+  }
+}

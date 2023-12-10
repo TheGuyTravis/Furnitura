@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:oak_planks"
+    },
+    "C": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BC ",
+    "   "
+  ],
+  "result": {
+    "item": "furnitura:wooden_couch_edge_yellow"
+  },
+  "show_notification": true
+}
