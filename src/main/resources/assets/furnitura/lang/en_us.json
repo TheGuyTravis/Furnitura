@@ -129,5 +129,13 @@
   "block.furnitura.couch_extenders_purple": "Purple Couch Extenders",
   "block.furnitura.couch_extenders_red": "Red Couch Extenders",
   "block.furnitura.couch_extenders_white": "White Couch Extenders",
-  "block.furnitura.couch_extenders_yellow": "Yellow Couch Extenders"
+  "block.furnitura.couch_extenders_yellow": "Yellow Couch Extenders",
+  "block.furnitura.jungle_table": "Jungle Table",
+  "block.furnitura.mangrove_table": "Mangrove Table",
+  "block.furnitura.cherry_table": "Cherry Table",
+  "block.furnitura.warped_table": "Warped Table",
+  "block.furnitura.crimson_table": "Crimson Table",
+  "block.furnitura.dark_oak_table": "Dark Oak Table",
+  "block.furnitura.acacia_table": "Acacia Oak Table",
+  "block.furnitura.spruce_table": "Spruce Oak Table"
 }

@@ -126,6 +126,14 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.COUCH_EXTENDERS_YELLOW.get());
                         output.accept(ModBlocks.DRAWER.get());
                         output.accept(ModBlocks.OAK_TABLE.get());
+                        output.accept(ModBlocks.JUNGLE_TABLE.get());
+                        output.accept(ModBlocks.MANGROVE_TABLE.get());
+                        output.accept(ModBlocks.CHERRY_TABLE.get());
+                        output.accept(ModBlocks.CRIMSON_TABLE.get());
+                        output.accept(ModBlocks.WARPED_TABLE.get());
+                        output.accept(ModBlocks.DARK_OAK_TABLE.get());
+                        output.accept(ModBlocks.ACACIA_TABLE.get());
+                        output.accept(ModBlocks.SPRUCE_TABLE.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE.get());
                         output.accept(ModBlocks.WOODEN_COUCH_END.get());
                         output.accept(ModBlocks.WOODEN_COUCH_SINGLE.get());

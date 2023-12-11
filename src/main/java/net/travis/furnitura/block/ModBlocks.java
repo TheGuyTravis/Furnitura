@@ -406,6 +406,30 @@ public class ModBlocks {
     public static final RegistryObject<Block> COUCH_EXTENDERS_YELLOW = registerBlock("couch_extenders_yellow",
             () -> new CouchExtendersYellowBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
 
+    public static final RegistryObject<Block> JUNGLE_TABLE = registerBlock("jungle_table",
+            () -> new JungleTableBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> MANGROVE_TABLE = registerBlock("mangrove_table",
+            () -> new MangroveTableBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> CHERRY_TABLE = registerBlock("cherry_table",
+            () -> new CherryTableBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> WARPED_TABLE = registerBlock("warped_table",
+            () -> new WarpedTableBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> CRIMSON_TABLE = registerBlock("crimson_table",
+            () -> new CrimsonTableBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> DARK_OAK_TABLE = registerBlock("dark_oak_table",
+            () -> new DarkOakTableBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> ACACIA_TABLE = registerBlock("acacia_table",
+            () -> new AcaciaTableBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SPRUCE_TABLE = registerBlock("spruce_table",
+            () -> new SpruceTableBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
+
 
 
 
