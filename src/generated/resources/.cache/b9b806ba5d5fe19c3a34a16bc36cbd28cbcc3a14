@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-11T15:35:40.5570402	Item Models: furnitura
+// 1.20.1	2023-12-12T09:45:20.2664559	Item Models: furnitura
 0a2afd51f32d461ab5a980a9e7ffedb64a9acc85 assets/furnitura/models/item/acacia_cabinet.json
 f2211307c38a8b52935df8a5933e75aaf5af59cf assets/furnitura/models/item/acacia_chair.json
 a0143a7d3bb42419f07314081db57bbb58c8aa08 assets/furnitura/models/item/acacia_shelf.json
@@ -58,6 +58,20 @@ c1dda0792172137795a571e5b055e04dc0ccb686 assets/furnitura/models/item/mangrove_s
 b502d71ee0f541ff6b6ca5f92c00da1ea5f90f01 assets/furnitura/models/item/oak_shelf.json
 1004f74b0f15dddc81fb2e7b37fe5e2c85d6d11a assets/furnitura/models/item/oak_shelf_extenders.json
 e2b373b85c41e86ba188c30930adc379c6b4ff2c assets/furnitura/models/item/oak_table.json
+29d0a66a70d2e4c287eeab1d858aa4f4a98491d4 assets/furnitura/models/item/single_cushion_blue.json
+3e345ec8745c672d0ce01b21401551c726108840 assets/furnitura/models/item/single_cushion_brown.json
+32ad4082c78367dad2e185e0a0627766ebe913a5 assets/furnitura/models/item/single_cushion_cyan.json
+55b445a89e7e845f5a800acdfdf2e357d162ae4c assets/furnitura/models/item/single_cushion_gray.json
+f40ddc7810867aa7f970a17ce1d2cbf65b669d0b assets/furnitura/models/item/single_cushion_green.json
+3f2ee61d741d782699290ce2e94ebf991bd87e8f assets/furnitura/models/item/single_cushion_light_blue.json
+3387f1eeadb3609c0fc985b430ed41639e667db6 assets/furnitura/models/item/single_cushion_light_gray.json
+7e102aa24e894f47e403674e2f7d98872990da4f assets/furnitura/models/item/single_cushion_lime.json
+fc5511056041aabbea212822cd9417d7031dc9b0 assets/furnitura/models/item/single_cushion_orange.json
+5f6ba06d1170209fd7cf1eac29733f2bd0c6acb4 assets/furnitura/models/item/single_cushion_pink.json
+2a1fe1957f509b62cd5c52f6570c1c00748dd0f7 assets/furnitura/models/item/single_cushion_purple.json
+984c4feec4a0b7b23ab254b7560771bf74785ccc assets/furnitura/models/item/single_cushion_red.json
+c85d4a0e9ae4ea8b19aff5a9d13ca2bf2ac11c24 assets/furnitura/models/item/single_cushion_white.json
+28ba1b1fd76dc0e445ee5f8e380f0fcb7d14606a assets/furnitura/models/item/single_cushion_yellow.json
 2d13aa82f877d5656311afc88849830ffd4f64f2 assets/furnitura/models/item/single_cussion_black.json
 4384f5100557f561c602670b4beb518cd36b3e87 assets/furnitura/models/item/spruce_cabinet.json
 117c330e7ab00c8785aef8f314d6f94f9bc99a38 assets/furnitura/models/item/spruce_chair.json

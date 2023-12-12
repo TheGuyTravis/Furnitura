@@ -430,6 +430,48 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPRUCE_TABLE = registerBlock("spruce_table",
             () -> new SpruceTableBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
 
+    public static final RegistryObject<Block> SINGLE_CUSHION_BLUE = registerBlock("single_cushion_blue",
+            () -> new SingleCushionBlueBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_BROWN = registerBlock("single_cushion_brown",
+            () -> new SingleCushionBrownBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_CYAN = registerBlock("single_cushion_cyan",
+            () -> new SingleCushionCyanBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_GRAY = registerBlock("single_cushion_gray",
+            () -> new SingleCushionGrayBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_GREEN = registerBlock("single_cushion_green",
+            () -> new SingleCushionGreenBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_LIGHT_BLUE = registerBlock("single_cushion_light_blue",
+            () -> new SingleCushionLightBlueBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_LIGHT_GRAY = registerBlock("single_cushion_light_gray",
+            () -> new SingleCushionLightGrayBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_LIME = registerBlock("single_cushion_lime",
+            () -> new SingleCushionLimeBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_ORANGE = registerBlock("single_cushion_orange",
+            () -> new SingleCushionOrangeBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_PINK = registerBlock("single_cushion_pink",
+            () -> new SingleCushionPinkBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_PURPLE = registerBlock("single_cushion_purple",
+            () -> new SingleCushionPurpleBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_RED = registerBlock("single_cushion_red",
+            () -> new SingleCushionRedBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_WHITE = registerBlock("single_cushion_white",
+            () -> new SingleCushionWhiteBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_CUSHION_YELLOW = registerBlock("single_cushion_yellow",
+            () -> new SingleCushionYellowBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
 
 
 

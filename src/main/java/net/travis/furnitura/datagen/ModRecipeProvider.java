@@ -1369,5 +1369,155 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.SPRUCE_PLANKS).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSSION_BLACK.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.BLACK_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_BLUE.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.BLUE_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_BROWN.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.BROWN_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_CYAN.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.CYAN_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_GRAY.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.GRAY_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_GREEN.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.GREEN_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_LIGHT_BLUE.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.LIGHT_BLUE_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_LIGHT_GRAY.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.LIGHT_GRAY_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_LIME.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.LIME_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_ORANGE.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.ORANGE_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_PINK.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.PINK_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_PURPLE.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.PURPLE_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_RED.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.RED_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_WHITE.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.WHITE_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SINGLE_CUSHION_YELLOW.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', Items.OAK_PLANKS)
+                .define('B', Items.YELLOW_WOOL)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
     }
 }

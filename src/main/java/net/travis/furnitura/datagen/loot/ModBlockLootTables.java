@@ -153,6 +153,20 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DARK_OAK_TABLE.get());
         this.dropSelf(ModBlocks.ACACIA_TABLE.get());
         this.dropSelf(ModBlocks.SPRUCE_TABLE.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_BLUE.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_BROWN.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_CYAN.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_GRAY.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_GREEN.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_LIGHT_BLUE.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_LIGHT_GRAY.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_LIME.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_ORANGE.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_PINK.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_PURPLE.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_RED.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_WHITE.get());
+        this.dropSelf(ModBlocks.SINGLE_CUSHION_YELLOW.get());
 
     }
 

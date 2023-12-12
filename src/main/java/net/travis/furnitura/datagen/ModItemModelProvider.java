@@ -294,6 +294,34 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.SPRUCE_TABLE.get());
 
+        complexBlock(ModBlocks.SINGLE_CUSHION_BLUE.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_BROWN.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_CYAN.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_GRAY.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_GREEN.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_LIGHT_BLUE.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_LIGHT_GRAY.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_LIME.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_ORANGE.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_PINK.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_PURPLE.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_RED.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_WHITE.get());
+
+        complexBlock(ModBlocks.SINGLE_CUSHION_YELLOW.get());
+
 
 
     }

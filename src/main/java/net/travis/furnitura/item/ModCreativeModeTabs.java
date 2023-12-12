@@ -139,6 +139,21 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.WOODEN_COUCH_SINGLE.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE_RIGHT.get());
                         output.accept(ModBlocks.COUCH_EXTENDORS.get());
+                        output.accept(ModBlocks.SINGLE_CUSSION_BLACK.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_BLUE.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_BROWN.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_CYAN.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_GRAY.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_GREEN.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_LIGHT_BLUE.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_LIGHT_GRAY.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_LIME.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_ORANGE.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_PINK.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_PURPLE.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_RED.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_WHITE.get());
+                        output.accept(ModBlocks.SINGLE_CUSHION_YELLOW.get());
 
                         output.accept(ModBlocks.CUSSION_LOW.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE_LEFT_RED.get());
@@ -146,7 +161,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.COUCH_EDGE_RIGHT_RED.get());
                         output.accept(ModBlocks.MICROWAVE_BLOCK.get());
                         output.accept(ModBlocks.TOASTER.get());
-                        output.accept(ModBlocks.SINGLE_CUSSION_BLACK.get());
                         output.accept(ModBlocks.BLUE_PET_BED.get());
                         output.accept(ModBlocks.TOAST.get());
 

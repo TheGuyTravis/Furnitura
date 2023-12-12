@@ -137,5 +137,19 @@
   "block.furnitura.crimson_table": "Crimson Table",
   "block.furnitura.dark_oak_table": "Dark Oak Table",
   "block.furnitura.acacia_table": "Acacia Oak Table",
-  "block.furnitura.spruce_table": "Spruce Oak Table"
+  "block.furnitura.spruce_table": "Spruce Oak Table",
+  "block.furnitura.single_cushion_blue": "Blue Cushion",
+  "block.furnitura.single_cushion_brown": "Brown Cushion",
+  "block.furnitura.single_cushion_cyan": "Cyan Cushion",
+  "block.furnitura.single_cushion_gray": "Gray Cushion",
+  "block.furnitura.single_cushion_green": "Green Cushion",
+  "block.furnitura.single_cushion_light_blue": "Light Blue Cushion",
+  "block.furnitura.single_cushion_light_gray": "Light Gray Cushion",
+  "block.furnitura.single_cushion_lime": "Lime Cushion",
+  "block.furnitura.single_cushion_orange": "Orange Cushion",
+  "block.furnitura.single_cushion_pink": "Pink Cushion",
+  "block.furnitura.single_cushion_purple": "Purple Cushion",
+  "block.furnitura.single_cushion_red": "Red Cushion",
+  "block.furnitura.single_cushion_white": "White Cushion",
+  "block.furnitura.single_cushion_yellow": "Yellow Cushion"
 }

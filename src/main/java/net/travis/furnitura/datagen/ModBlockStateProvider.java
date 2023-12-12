@@ -428,6 +428,48 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.SPRUCE_TABLE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/spruce_table")));
 
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_BLUE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_blue")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_BROWN.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_brown")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_CYAN.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_cyan")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_GRAY.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_gray")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_GREEN.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_green")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_LIGHT_BLUE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_light_blue")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_LIGHT_GRAY.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_light_gray")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_LIME.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_lime")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_ORANGE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_orange")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_PINK.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_pink")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_PURPLE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_purple")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_RED.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_red")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_WHITE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_white")));
+
+        horizontalBlock(ModBlocks.SINGLE_CUSHION_YELLOW.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_cushion_yellow")));
+
 
     }
 
