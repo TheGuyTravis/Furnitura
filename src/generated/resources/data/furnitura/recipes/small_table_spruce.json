@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:spruce_log"
+    },
+    "B": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:small_table_spruce"
+  },
+  "show_notification": true
+}

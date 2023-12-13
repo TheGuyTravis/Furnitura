@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:mangrove_table"
+  },
+  "show_notification": true
+}

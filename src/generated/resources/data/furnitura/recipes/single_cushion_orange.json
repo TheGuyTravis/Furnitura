@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oak_planks"
+    },
+    "B": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "item": "furnitura:single_cushion_orange"
+  },
+  "show_notification": true
+}

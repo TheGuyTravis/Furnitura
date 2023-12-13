@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:cherry_table"
+  },
+  "show_notification": true
+}

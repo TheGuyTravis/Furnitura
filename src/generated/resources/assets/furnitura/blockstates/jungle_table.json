@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/jungle_table",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/jungle_table"
+    },
+    "facing=south": {
+      "model": "furnitura:block/jungle_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/jungle_table",
+      "y": 270
+    }
+  }
+}

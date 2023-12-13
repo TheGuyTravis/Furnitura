@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:crimson_stem"
+    },
+    "B": {
+      "item": "minecraft:crimson_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:small_table_crimson"
+  },
+  "show_notification": true
+}

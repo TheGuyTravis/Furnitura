@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/single_cushion_white",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/single_cushion_white"
+    },
+    "facing=south": {
+      "model": "furnitura:block/single_cushion_white",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/single_cushion_white",
+      "y": 270
+    }
+  }
+}
