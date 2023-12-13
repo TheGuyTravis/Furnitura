@@ -472,6 +472,38 @@ public class ModBlocks {
     public static final RegistryObject<Block> SINGLE_CUSHION_YELLOW = registerBlock("single_cushion_yellow",
             () -> new SingleCushionYellowBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
 
+    public static final RegistryObject<Block> LARGE_COUCH_SINGLE_BLACK = registerBlock("large_couch_single_black",
+            () -> new LargeCouchSingleBlackBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_OAK = registerBlock("small_table_oak",
+            () -> new SmallTableOakBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_JUNGLE = registerBlock("small_table_jungle",
+            () -> new SmallTableJungleBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_MANGROVE = registerBlock("small_table_mangrove",
+            () -> new SmallTableMangroveBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_CHERRY = registerBlock("small_table_cherry",
+            () -> new SmallTableCherryBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_CRIMSON = registerBlock("small_table_crimson",
+            () -> new SmallTableCrimsonBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_WARPED = registerBlock("small_table_warped",
+            () -> new SmallTableWarpedBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_DARK_OAK = registerBlock("small_table_dark_oak",
+            () -> new SmallTableDarkOakBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_ACACIA = registerBlock("small_table_acacia",
+            () -> new SmallTableAcaciaBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SMALL_TABLE_SPRUCE = registerBlock("small_table_spruce",
+            () -> new SmallTableSpruceBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-12T09:45:20.2664559	Item Models: furnitura
+// 1.20.1	2023-12-13T10:33:27.0705321	Item Models: furnitura
 0a2afd51f32d461ab5a980a9e7ffedb64a9acc85 assets/furnitura/models/item/acacia_cabinet.json
 f2211307c38a8b52935df8a5933e75aaf5af59cf assets/furnitura/models/item/acacia_chair.json
 a0143a7d3bb42419f07314081db57bbb58c8aa08 assets/furnitura/models/item/acacia_shelf.json
@@ -46,6 +46,7 @@ cf1979be10f8e6b21e3784a6348573b092a57e96 assets/furnitura/models/item/jungle_she
 9193f75044acc349c386d95c341efb128cc55030 assets/furnitura/models/item/jungle_table.json
 2132cec28df8d097dcfed7640988bef2ce441e01 assets/furnitura/models/item/large_chair_left.json
 58c77c489e0f6dcc28c737410ba90b76fe14c636 assets/furnitura/models/item/large_chair_right.json
+1e6c86d47ab5239e3fc727d44db52b46cb522d65 assets/furnitura/models/item/large_couch_single_black.json
 14c11b409b1cb739d17f431d2889cdcc807a2ffe assets/furnitura/models/item/large_single_couch.json
 68cfd4ffa7e03cb1dbcf541ad92f17e3b451e7a9 assets/furnitura/models/item/mangrove_cabinet.json
 461782ad666ea7626d6527b1e1f93c0e62ea5498 assets/furnitura/models/item/mangrove_chair.json
@@ -73,6 +74,15 @@ fc5511056041aabbea212822cd9417d7031dc9b0 assets/furnitura/models/item/single_cus
 c85d4a0e9ae4ea8b19aff5a9d13ca2bf2ac11c24 assets/furnitura/models/item/single_cushion_white.json
 28ba1b1fd76dc0e445ee5f8e380f0fcb7d14606a assets/furnitura/models/item/single_cushion_yellow.json
 2d13aa82f877d5656311afc88849830ffd4f64f2 assets/furnitura/models/item/single_cussion_black.json
+a9249a67851afc17a3ac0ba502f44b0394cfea99 assets/furnitura/models/item/small_table_acacia.json
+482d74c7defa7d1876e9173a1cdb59f70d089782 assets/furnitura/models/item/small_table_cherry.json
+30de7134565b692e8ed577524ee50178e7cf2ef1 assets/furnitura/models/item/small_table_crimson.json
+bbc34e39db1a3d8d11c003a7adeff4196c87f6b7 assets/furnitura/models/item/small_table_dark_oak.json
+6a444c56050fff1bba3e19b4f41549c200d856ca assets/furnitura/models/item/small_table_jungle.json
+5d7dbc9acb673417d7ff5988d5708aa8f4b86829 assets/furnitura/models/item/small_table_mangrove.json
+1b9dd60bcfca80275f5e57644bf114bca1f084d9 assets/furnitura/models/item/small_table_oak.json
+a5887797112ef5d28f4ef3450f6febe37e808856 assets/furnitura/models/item/small_table_spruce.json
+6cf9b1ad5abf3731668ba6c74bec9decfc888752 assets/furnitura/models/item/small_table_warped.json
 4384f5100557f561c602670b4beb518cd36b3e87 assets/furnitura/models/item/spruce_cabinet.json
 117c330e7ab00c8785aef8f314d6f94f9bc99a38 assets/furnitura/models/item/spruce_chair.json
 a51757e0d9b9d3c986eec6141b6a102117069ecb assets/furnitura/models/item/spruce_shelf.json

@@ -151,5 +151,15 @@
   "block.furnitura.single_cushion_purple": "Purple Cushion",
   "block.furnitura.single_cushion_red": "Red Cushion",
   "block.furnitura.single_cushion_white": "White Cushion",
-  "block.furnitura.single_cushion_yellow": "Yellow Cushion"
+  "block.furnitura.single_cushion_yellow": "Yellow Cushion",
+  "block.furnitura.large_couch_single_black": "Black Large Single Couch",
+  "block.furnitura.small_table_oak": "Small Oak Table",
+  "block.furnitura.small_table_jungle": "Small Jungle Table",
+  "block.furnitura.small_table_mangrove": "Small Mangrove Table",
+  "block.furnitura.small_table_cherry": "Small Cherry Table",
+  "block.furnitura.small_table_crimson": "Small Crimson Table",
+  "block.furnitura.small_table_warped": "Small Warped Table",
+  "block.furnitura.small_table_dark_oak": "Small Dark Oak Table",
+  "block.furnitura.small_table_acacia": "Small Acacia Table",
+  "block.furnitura.small_table_spruce": "Small Spruce Table"
 }
