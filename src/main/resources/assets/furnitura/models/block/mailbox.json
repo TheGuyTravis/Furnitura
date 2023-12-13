@@ -6,7 +6,6 @@
 		"2": "furnitura:block/mail_details",
 		"3": "block/oak_log",
 		"4": "furnitura:block/red",
-		"5": "furnitura:block/side_details",
 		"particle": "furnitura:block/mail_box_bottom"
 	},
 	"elements": [
@@ -141,30 +140,6 @@
 				"up": {"uv": [3, 3, 0, 2], "texture": "#2"},
 				"down": {"uv": [3, 3, 0, 4], "texture": "#2"}
 			}
-		},
-		{
-			"from": [5.5, 14, 4],
-			"to": [6, 14.5, 12],
-			"faces": {
-				"north": {"uv": [2, 2, 3, 3], "texture": "#5"},
-				"east": {"uv": [0, 0, 8, 1], "texture": "#5"},
-				"south": {"uv": [2, 3, 3, 4], "texture": "#5"},
-				"west": {"uv": [0, 1, 8, 2], "texture": "#5"},
-				"up": {"uv": [1, 10, 0, 2], "texture": "#5"},
-				"down": {"uv": [2, 2, 1, 10], "texture": "#5"}
-			}
-		},
-		{
-			"from": [10, 14, 4],
-			"to": [10.5, 14.5, 12],
-			"faces": {
-				"north": {"uv": [2, 2, 3, 3], "texture": "#5"},
-				"east": {"uv": [0, 0, 8, 1], "texture": "#5"},
-				"south": {"uv": [2, 3, 3, 4], "texture": "#5"},
-				"west": {"uv": [0, 1, 8, 2], "texture": "#5"},
-				"up": {"uv": [1, 10, 0, 2], "texture": "#5"},
-				"down": {"uv": [2, 2, 1, 10], "texture": "#5"}
-			}
 		}
 	],
 	"display": {
@@ -176,7 +151,7 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 118, 0],
-			"translation": [-1.75, 3, 4.25],
+			"translation": [-2, 3, 4.5],
 			"scale": [0.5, 0.5, 0.5]
 		},
 		"ground": {
@@ -184,8 +159,11 @@
 		},
 		"gui": {
 			"rotation": [24, -132, 0],
-			"translation": [-0.5, 0, 0],
+			"translation": [-0.5, 0.25, 0],
 			"scale": [0.7, 0.7, 0.7]
+		},
+		"fixed": {
+			"scale": [0.37, 0.37, 0.37]
 		}
 	}
 }
