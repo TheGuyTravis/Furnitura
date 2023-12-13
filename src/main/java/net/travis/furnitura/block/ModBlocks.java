@@ -502,6 +502,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> SMALL_TABLE_SPRUCE = registerBlock("small_table_spruce",
             () -> new SmallTableSpruceBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
 
+    public static final RegistryObject<Block> MAILBOX = registerBlock("mailbox",
+            () -> new MailboxBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+
 
 
 

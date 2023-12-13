@@ -1620,6 +1620,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.SPRUCE_PLANKS).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MAILBOX.get())
+                .pattern(" B ")
+                .pattern(" A ")
+                .pattern(" A ")
+                .define('A', Items.STICK)
+                .define('B', Items.CHEST)
+                .unlockedBy("has_iron_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.IRON_BLOCK).build()))
+                .save(pWriter);
+
 
     }
 }

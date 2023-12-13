@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-13T10:33:27.0705321	Item Models: furnitura
+// 1.20.1	2023-12-13T13:03:30.3753632	Item Models: furnitura
 0a2afd51f32d461ab5a980a9e7ffedb64a9acc85 assets/furnitura/models/item/acacia_cabinet.json
 f2211307c38a8b52935df8a5933e75aaf5af59cf assets/furnitura/models/item/acacia_chair.json
 a0143a7d3bb42419f07314081db57bbb58c8aa08 assets/furnitura/models/item/acacia_shelf.json
@@ -48,6 +48,7 @@ cf1979be10f8e6b21e3784a6348573b092a57e96 assets/furnitura/models/item/jungle_she
 58c77c489e0f6dcc28c737410ba90b76fe14c636 assets/furnitura/models/item/large_chair_right.json
 1e6c86d47ab5239e3fc727d44db52b46cb522d65 assets/furnitura/models/item/large_couch_single_black.json
 14c11b409b1cb739d17f431d2889cdcc807a2ffe assets/furnitura/models/item/large_single_couch.json
+d5974b6962bc0794cd71bd5dabceed8e5f6cf251 assets/furnitura/models/item/mailbox.json
 68cfd4ffa7e03cb1dbcf541ad92f17e3b451e7a9 assets/furnitura/models/item/mangrove_cabinet.json
 461782ad666ea7626d6527b1e1f93c0e62ea5498 assets/furnitura/models/item/mangrove_chair.json
 c1dda0792172137795a571e5b055e04dc0ccb686 assets/furnitura/models/item/mangrove_shelf.json

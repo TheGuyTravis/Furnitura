@@ -342,6 +342,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.SMALL_TABLE_SPRUCE.get());
 
+        complexBlock(ModBlocks.MAILBOX.get());
+
 
 
 

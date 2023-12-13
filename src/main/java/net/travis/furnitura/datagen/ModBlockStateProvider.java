@@ -500,6 +500,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.SMALL_TABLE_SPRUCE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/small_table_spruce")));
 
+        horizontalBlock(ModBlocks.MAILBOX.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/mailbox")));
+
 
 
 

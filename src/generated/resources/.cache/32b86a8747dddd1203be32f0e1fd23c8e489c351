@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-13T10:33:27.0654932	Block States: furnitura
+// 1.20.1	2023-12-13T13:03:30.3698597	Block States: furnitura
 1567790db25858b121c109917317ef1f580a4829 assets/furnitura/blockstates/acacia_cabinet.json
 2603432b634f854b4ee048d99232f3a84ea7f93f assets/furnitura/blockstates/acacia_chair.json
 baad6332ffba1d55c97d3f5ab32d338ac2167254 assets/furnitura/blockstates/acacia_shelf.json
@@ -48,6 +48,7 @@ ed1bdd54c1b462ae1a383b2ccf8884b83714cfef assets/furnitura/blockstates/large_chai
 130772cce141d4a5ff794bb836bba2bbb4212398 assets/furnitura/blockstates/large_chair_right.json
 2c94954a0cbcf3e5752e690d1472a6fbbf7432a7 assets/furnitura/blockstates/large_couch_single_black.json
 20aca866a4c3a99aea664afc3b0a8a47512dd8b0 assets/furnitura/blockstates/large_single_couch.json
+35e064b0dd0dc07ce5c311f667664fab09ac7bac assets/furnitura/blockstates/mailbox.json
 b3112fb6bf54175bf3fea92b33255cfd05430cf8 assets/furnitura/blockstates/mangrove_cabinet.json
 c1521f3be48f974d9fbf736b1a59864497cc17c3 assets/furnitura/blockstates/mangrove_chair.json
 a10ee6a3e3e0c5104db1d31f19bd6a2ba2087ad2 assets/furnitura/blockstates/mangrove_shelf.json

@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-13T10:33:27.071532	Recipes
+// 1.20.1	2023-12-13T13:03:30.3763805	Recipes
 7c438010351be0f54a6620f41e075b46a6a1ad13 data/furnitura/advancements/recipes/misc/acacia_cabinet.json
 719427a53b829922519f8dbd4aeb421f13dfa1b7 data/furnitura/advancements/recipes/misc/acacia_chair.json
 e267b44bc8cacf9e52629d22eedda483ac8cbc13 data/furnitura/advancements/recipes/misc/acacia_shelf.json
@@ -45,6 +45,7 @@ d9c2ad97a169eeadcf0ed8a51a4a7449ec1ab93d data/furnitura/advancements/recipes/mis
 56a0c0caa9914ddc3eed97f7d5935c02daaf5861 data/furnitura/advancements/recipes/misc/jungle_shelf_extenders.json
 54227c39f07eea3602792a909d22704be157fc2b data/furnitura/advancements/recipes/misc/jungle_table.json
 29dada1a09f3c525e90d284c221ae46795a3eb23 data/furnitura/advancements/recipes/misc/large_couch_single_black.json
+2994273e47b605cc03c87f8fef3a18118a245dc6 data/furnitura/advancements/recipes/misc/mailbox.json
 60b51548506717a45c53cc81e5970444417d1c4d data/furnitura/advancements/recipes/misc/mangrove_cabinet.json
 4d1bb6199128b7252b8edd9ddb3021006f89d80f data/furnitura/advancements/recipes/misc/mangrove_chair.json
 990975d5425f7cfb4f19aee44c9b35d5333f8795 data/furnitura/advancements/recipes/misc/mangrove_shelf.json
@@ -199,6 +200,7 @@ e404521245165ddc898f8ec890ac48b337765baf data/furnitura/recipes/dark_oak_shelf_e
 18e0c4d5de54d64393ec9bcf24d16f68c919f26d data/furnitura/recipes/jungle_shelf_extenders.json
 3f11d7746a06a0d802bf257f19013ca4e2ca861c data/furnitura/recipes/jungle_table.json
 e95233a0e0f0493733fa34157043e58f7e2626c4 data/furnitura/recipes/large_couch_single_black.json
+579d189c4d1a3fe1a31f1b368cf8947d91bc6055 data/furnitura/recipes/mailbox.json
 c47467363f2c641235e26330e20c9c87f15d240d data/furnitura/recipes/mangrove_cabinet.json
 206afc7db316b41a297cc4382c41fd6b0f071593 data/furnitura/recipes/mangrove_chair.json
 b76bcb6d58449d801bca667f98cdfd56419a5c5f data/furnitura/recipes/mangrove_shelf.json

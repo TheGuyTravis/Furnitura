@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-13T10:33:27.0684948	Loot Tables
+// 1.20.1	2023-12-13T13:03:30.3728599	Loot Tables
 632e8ffe5a7e7e786c3d99e7ffbd088e989963d8 data/furnitura/loot_tables/blocks/acacia_cabinet.json
 6407dfcd77a4d9e269ac71136b55033f6cc8b603 data/furnitura/loot_tables/blocks/acacia_chair.json
 49b744dbe03cbf0b28cb72fcf8a7c3bb68d6e516 data/furnitura/loot_tables/blocks/acacia_shelf.json
@@ -48,6 +48,7 @@ b59aba3bce88987a9716b45d5d67344fc0b12976 data/furnitura/loot_tables/blocks/large
 7d1531d4bff683c17305f0e116e78bd7a2ed3664 data/furnitura/loot_tables/blocks/large_chair_right.json
 05157dc3cb0ed116852f6a184debee8a9f7e65d1 data/furnitura/loot_tables/blocks/large_couch_single_black.json
 4fb2bd1c501b9d68118295abd81ab158c6c6ea56 data/furnitura/loot_tables/blocks/large_single_couch.json
+87a35e912d614f7d4193e368a3017d99421feb2d data/furnitura/loot_tables/blocks/mailbox.json
 6ed8ff932e63ba2d1f1105f833283106cee1b25d data/furnitura/loot_tables/blocks/mangrove_cabinet.json
 0302dd0dfeb897a6eb95b33f61d6f8b35aab3b5c data/furnitura/loot_tables/blocks/mangrove_chair.json
 97bc2d36d0e34a47abbb15f751b54eb2773e70f1 data/furnitura/loot_tables/blocks/mangrove_shelf.json

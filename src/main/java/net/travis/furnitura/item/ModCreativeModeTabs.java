@@ -163,6 +163,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SINGLE_CUSHION_RED.get());
                         output.accept(ModBlocks.SINGLE_CUSHION_WHITE.get());
                         output.accept(ModBlocks.SINGLE_CUSHION_YELLOW.get());
+                        output.accept(ModBlocks.MAILBOX.get());
 
                         output.accept(ModBlocks.CUSSION_LOW.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE_LEFT_RED.get());

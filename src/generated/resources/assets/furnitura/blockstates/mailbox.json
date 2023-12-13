@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/mailbox",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/mailbox"
+    },
+    "facing=south": {
+      "model": "furnitura:block/mailbox",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/mailbox",
+      "y": 270
+    }
+  }
+}

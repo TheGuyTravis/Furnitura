@@ -177,6 +177,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SMALL_TABLE_DARK_OAK.get());
         this.dropSelf(ModBlocks.SMALL_TABLE_ACACIA.get());
         this.dropSelf(ModBlocks.SMALL_TABLE_SPRUCE.get());
+        this.dropSelf(ModBlocks.MAILBOX.get());
 
     }
 
