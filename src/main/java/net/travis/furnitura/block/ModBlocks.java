@@ -500,10 +500,37 @@ public class ModBlocks {
             () -> new SmallTableAcaciaBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
 
     public static final RegistryObject<Block> SMALL_TABLE_SPRUCE = registerBlock("small_table_spruce",
-            () -> new SmallTableSpruceBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
+            () -> new SmallTableSpruceBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
 
     public static final RegistryObject<Block> MAILBOX = registerBlock("mailbox",
             () -> new MailboxBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()));
+
+    public static final RegistryObject<Block> OAK_LOG_SHELF = registerBlock("oak_log_shelf",
+            () -> new OakLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> JUNGLE_LOG_SHELF = registerBlock("jungle_log_shelf",
+            () -> new JungleLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> MANGROVE_LOG_SHELF = registerBlock("mangrove_log_shelf",
+            () -> new MangroveLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> CHERRY_LOG_SHELF = registerBlock("cherry_log_shelf",
+            () -> new CherryLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> CRIMSON_STEM_SHELF = registerBlock("crimson_stem_shelf",
+            () -> new CrimsonStemShelfBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> WARPED_STEM_SHELF = registerBlock("warped_stem_shelf",
+            () -> new WarpedStemShelfBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> DARK_OAK_LOG_SHELF = registerBlock("dark_oak_log_shelf",
+            () -> new DarkOakLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> ACACIA_LOG_SHELF = registerBlock("acacia_log_shelf",
+            () -> new AcaciaLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SPRUCE_LOG_SHELF = registerBlock("spruce_log_shelf",
+            () -> new SpruceLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
 
 
 

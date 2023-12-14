@@ -54,6 +54,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DARK_OAK_CABINET.get());
                         output.accept(ModBlocks.ACACIA_CABINET.get());
                         output.accept(ModBlocks.SPRUCE_CABINET.get());
+                        output.accept(ModBlocks.OAK_LOG_SHELF.get());
+                        output.accept(ModBlocks.JUNGLE_LOG_SHELF.get());
+                        output.accept(ModBlocks.MANGROVE_LOG_SHELF.get());
+                        output.accept(ModBlocks.CHERRY_LOG_SHELF.get());
+                        output.accept(ModBlocks.CRIMSON_STEM_SHELF.get());
+                        output.accept(ModBlocks.WARPED_STEM_SHELF.get());
+                        output.accept(ModBlocks.DARK_OAK_LOG_SHELF.get());
+                        output.accept(ModBlocks.ACACIA_LOG_SHELF.get());
+                        output.accept(ModBlocks.SPRUCE_LOG_SHELF.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE_BLUE.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE_BROWN.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE_CYAN.get());

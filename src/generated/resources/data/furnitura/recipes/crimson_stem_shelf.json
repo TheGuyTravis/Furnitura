@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:crimson_stem"
+    },
+    "B": {
+      "item": "minecraft:stripped_crimson_stem"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "B B",
+    "AAA"
+  ],
+  "result": {
+    "item": "furnitura:crimson_stem_shelf"
+  },
+  "show_notification": true
+}

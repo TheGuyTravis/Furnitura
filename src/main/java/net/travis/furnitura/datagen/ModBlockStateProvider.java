@@ -503,6 +503,33 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.MAILBOX.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/mailbox")));
 
+        horizontalBlock(ModBlocks.OAK_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/oak_log_shelf")));
+
+        horizontalBlock(ModBlocks.JUNGLE_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/jungle_log_shelf")));
+
+        horizontalBlock(ModBlocks.MANGROVE_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/mangrove_log_shelf")));
+
+        horizontalBlock(ModBlocks.CHERRY_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/cherry_log_shelf")));
+
+        horizontalBlock(ModBlocks.CRIMSON_STEM_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/crimson_stem_shelf")));
+
+        horizontalBlock(ModBlocks.WARPED_STEM_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/warped_stem_shelf")));
+
+        horizontalBlock(ModBlocks.DARK_OAK_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/dark_oak_log_shelf")));
+
+        horizontalBlock(ModBlocks.ACACIA_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/acacia_log_shelf")));
+
+        horizontalBlock(ModBlocks.SPRUCE_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/spruce_log_shelf")));
+
 
 
 

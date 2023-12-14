@@ -162,5 +162,14 @@
   "block.furnitura.small_table_dark_oak": "Small Dark Oak Table",
   "block.furnitura.small_table_acacia": "Small Acacia Table",
   "block.furnitura.small_table_spruce": "Small Spruce Table",
-  "block.furnitura.mailbox": "MailBox"
+  "block.furnitura.mailbox": "MailBox",
+  "block.furnitura.oak_log_shelf": "Oak Log Shelf",
+  "block.furnitura.jungle_log_shelf": "Jungle Log Shelf",
+  "block.furnitura.mangrove_log_shelf": "Mangrove Log Shelf",
+  "block.furnitura.cherry_log_shelf": "Cherry Log Shelf",
+  "block.furnitura.crimson_stem_shelf": "Crimson Stem Shelf",
+  "block.furnitura.warped_stem_shelf": "Warped Stem Shelf",
+  "block.furnitura.dark_oak_log_shelf": "Dark Oak Log Shelf",
+  "block.furnitura.acacia_log_shelf": "Acacia Log Shelf",
+  "block.furnitura.spruce_log_shelf": "Spruce Log Shelf"
 }

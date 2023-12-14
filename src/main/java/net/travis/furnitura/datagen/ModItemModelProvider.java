@@ -344,6 +344,24 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.MAILBOX.get());
 
+        complexBlock(ModBlocks.OAK_LOG_SHELF.get());
+
+        complexBlock(ModBlocks.JUNGLE_LOG_SHELF.get());
+
+        complexBlock(ModBlocks.MANGROVE_LOG_SHELF.get());
+
+        complexBlock(ModBlocks.CHERRY_LOG_SHELF.get());
+
+        complexBlock(ModBlocks.CRIMSON_STEM_SHELF.get());
+
+        complexBlock(ModBlocks.WARPED_STEM_SHELF.get());
+
+        complexBlock(ModBlocks.DARK_OAK_LOG_SHELF.get());
+
+        complexBlock(ModBlocks.ACACIA_LOG_SHELF.get());
+
+        complexBlock(ModBlocks.SPRUCE_LOG_SHELF.get());
+
 
 
 
