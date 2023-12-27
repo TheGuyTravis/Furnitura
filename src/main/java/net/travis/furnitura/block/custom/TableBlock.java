@@ -11,8 +11,8 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class CherryTableBlock extends HorizontalDirectionalBlock {
-    public CherryTableBlock(Properties pProperties) {
+public class TableBlock extends HorizontalDirectionalBlock {
+    public TableBlock(Properties pProperties) {
         super(pProperties);
     }
 

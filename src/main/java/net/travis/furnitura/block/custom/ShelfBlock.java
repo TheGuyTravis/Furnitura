@@ -11,12 +11,11 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class WarpedTableBlock extends HorizontalDirectionalBlock {
-    public WarpedTableBlock(Properties pProperties) {
+public class ShelfBlock extends HorizontalDirectionalBlock {
+    public ShelfBlock(Properties pProperties) {
         super(pProperties);
     }
-
-    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 16, 16);
+    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 10, 16);
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {

@@ -11,11 +11,10 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class MangroveTableBlock extends HorizontalDirectionalBlock {
-    public MangroveTableBlock(Properties pProperties) {
+public class LogShelfBlock extends HorizontalDirectionalBlock {
+    public LogShelfBlock(Properties pProperties) {
         super(pProperties);
     }
-
     private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 16, 16);
 
     @Override
