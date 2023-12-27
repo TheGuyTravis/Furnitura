@@ -171,5 +171,14 @@
   "block.furnitura.warped_stem_shelf": "Warped Stem Shelf",
   "block.furnitura.dark_oak_log_shelf": "Dark Oak Log Shelf",
   "block.furnitura.acacia_log_shelf": "Acacia Log Shelf",
-  "block.furnitura.spruce_log_shelf": "Spruce Log Shelf"
+  "block.furnitura.spruce_log_shelf": "Spruce Log Shelf",
+  "block.furnitura.single_leg_table_oak": "Single Leg Oak Table",
+  "block.furnitura.single_leg_table_jungle": "Single Leg Jungle Table",
+  "block.furnitura.single_leg_table_mangrove": "Single Leg Mangrove Table",
+  "block.furnitura.single_leg_table_cherry": "Single Leg Cherry Table",
+  "block.furnitura.single_leg_table_crimson": "Single Leg Crimson Table",
+  "block.furnitura.single_leg_table_warped": "Single Leg Warped Table",
+  "block.furnitura.single_leg_table_dark_oak": "Single Leg Dark Oak Table",
+  "block.furnitura.single_leg_table_acacia": "Single Leg Acacia Table",
+  "block.furnitura.single_leg_table_spruce": "Single Leg Spruce Table"
 }

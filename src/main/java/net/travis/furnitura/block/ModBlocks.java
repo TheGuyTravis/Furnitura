@@ -532,6 +532,33 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPRUCE_LOG_SHELF = registerBlock("spruce_log_shelf",
             () -> new SpruceLogShelfBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
 
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_OAK = registerBlock("single_leg_table_oak",
+            () -> new SingleLegTableOakBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_JUNGLE = registerBlock("single_leg_table_jungle",
+            () -> new SingleLegTableJungleBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_MANGROVE = registerBlock("single_leg_table_mangrove",
+            () -> new SingleLegTableMangroveBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_CHERRY = registerBlock("single_leg_table_cherry",
+            () -> new SingleLegTableCherryBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_CRIMSON = registerBlock("single_leg_table_crimson",
+            () -> new SingleLegTableCrimsonBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_WARPED = registerBlock("single_leg_table_warped",
+            () -> new SingleLegTableWarpedBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_DARK_OAK = registerBlock("single_leg_table_dark_oak",
+            () -> new SingleLegTableDarkOakBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_ACACIA = registerBlock("single_leg_table_acacia",
+            () -> new SingleLegTableAcaciaBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
+
+    public static final RegistryObject<Block> SINGLE_LEG_TABLE_SPRUCE = registerBlock("single_leg_table_spruce",
+            () -> new SingleLegTableSpruceBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
+
 
 
 

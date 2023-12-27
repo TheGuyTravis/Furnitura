@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-14T08:47:53.9170147	Item Models: furnitura
+// 1.20.1	2023-12-26T12:28:43.8768611	Item Models: furnitura
 0a2afd51f32d461ab5a980a9e7ffedb64a9acc85 assets/furnitura/models/item/acacia_cabinet.json
 f2211307c38a8b52935df8a5933e75aaf5af59cf assets/furnitura/models/item/acacia_chair.json
 b8de9079c30e9fc672318631a56ee41410f4f1e2 assets/furnitura/models/item/acacia_log_shelf.json
@@ -82,6 +82,15 @@ fc5511056041aabbea212822cd9417d7031dc9b0 assets/furnitura/models/item/single_cus
 c85d4a0e9ae4ea8b19aff5a9d13ca2bf2ac11c24 assets/furnitura/models/item/single_cushion_white.json
 28ba1b1fd76dc0e445ee5f8e380f0fcb7d14606a assets/furnitura/models/item/single_cushion_yellow.json
 2d13aa82f877d5656311afc88849830ffd4f64f2 assets/furnitura/models/item/single_cussion_black.json
+66bce30b1d8571b7163c8d1d92ba0627d578f098 assets/furnitura/models/item/single_leg_table_acacia.json
+2f3c9fd553feaf77102977e39dd85e1fa440a2b0 assets/furnitura/models/item/single_leg_table_cherry.json
+ee988563622da2cd3eceaf15a538bc6cdd63b826 assets/furnitura/models/item/single_leg_table_crimson.json
+c1bd04fd180366fb2baefc0b1bd44cad781d4ad0 assets/furnitura/models/item/single_leg_table_dark_oak.json
+683d86f8847a50ce16acf477e8617d87b53746ac assets/furnitura/models/item/single_leg_table_jungle.json
+858bfe52bfdd7bec895caf4c6f10689a383c24a8 assets/furnitura/models/item/single_leg_table_mangrove.json
+51a466e2047ec0a2d6b8d888b047dc5250fca727 assets/furnitura/models/item/single_leg_table_oak.json
+4463be6571311df39ceded959d52dba1b589d50f assets/furnitura/models/item/single_leg_table_spruce.json
+e797829bdf4e3277f4c21097dc6bc1fbe1bac98a assets/furnitura/models/item/single_leg_table_warped.json
 a9249a67851afc17a3ac0ba502f44b0394cfea99 assets/furnitura/models/item/small_table_acacia.json
 482d74c7defa7d1876e9173a1cdb59f70d089782 assets/furnitura/models/item/small_table_cherry.json
 30de7134565b692e8ed577524ee50178e7cf2ef1 assets/furnitura/models/item/small_table_crimson.json

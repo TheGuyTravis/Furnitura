@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oak_log"
+    },
+    "B": {
+      "item": "minecraft:stripped_oak_log"
+    }
+  },
+  "pattern": [
+    "BBB",
+    " A ",
+    " A "
+  ],
+  "result": {
+    "item": "furnitura:single_leg_table_oak"
+  },
+  "show_notification": true
+}

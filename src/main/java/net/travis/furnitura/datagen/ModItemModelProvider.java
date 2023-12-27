@@ -362,6 +362,24 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.SPRUCE_LOG_SHELF.get());
 
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_OAK.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_JUNGLE.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_MANGROVE.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_CHERRY.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_CRIMSON.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_WARPED.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_DARK_OAK.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_ACACIA.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_SPRUCE.get());
+
 
 
 

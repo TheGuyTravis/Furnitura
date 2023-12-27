@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/single_leg_table_spruce",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/single_leg_table_spruce"
+    },
+    "facing=south": {
+      "model": "furnitura:block/single_leg_table_spruce",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/single_leg_table_spruce",
+      "y": 270
+    }
+  }
+}

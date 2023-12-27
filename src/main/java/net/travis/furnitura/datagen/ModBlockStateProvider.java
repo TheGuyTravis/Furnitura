@@ -530,6 +530,33 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.SPRUCE_LOG_SHELF.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/spruce_log_shelf")));
 
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_OAK.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_oak")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_JUNGLE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_jungle")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_MANGROVE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_mangrove")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_CHERRY.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_cherry")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_CRIMSON.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_crimson")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_WARPED.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_warped")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_DARK_OAK.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_dark_oak")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_ACACIA.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_acacia")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_SPRUCE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_spruce")));
+
 
 
 
