@@ -34,7 +34,7 @@ public class SeatEntity extends Entity
     {
         this(level);
         this.setPos(source.getX() + 0.5, source.getY() + yOffset, source.getZ() + 0.5);
-        this.setRot(direction.getOpposite().toYRot(), 0F);
+        this.setRot(direction.toYRot(), 0F);
     }
 
     @Override
