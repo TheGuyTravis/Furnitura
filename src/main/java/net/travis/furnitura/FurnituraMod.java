@@ -13,7 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.travis.furnitura.block.ModBlocks;
-import net.travis.furnitura.entity.ModEntities;
+
 import net.travis.furnitura.item.ModCreativeModeTabs;
 import net.travis.furnitura.item.ModItems;
 import org.slf4j.Logger;
@@ -34,7 +34,6 @@ public class FurnituraMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModEntities.REGISTER.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
