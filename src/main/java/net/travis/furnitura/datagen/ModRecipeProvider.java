@@ -1810,6 +1810,96 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.SPRUCE_PLANKS).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OAK_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_OAK_LOG)
+                .define('B', Items.OAK_LOG)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.JUNGLE_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_JUNGLE_LOG)
+                .define('B', Items.JUNGLE_LOG)
+                .unlockedBy("has_jungle_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.JUNGLE_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.MANGROVE_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_MANGROVE_LOG)
+                .define('B', Items.MANGROVE_LOG)
+                .unlockedBy("has_mangrove_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.MANGROVE_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CHERRY_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_CHERRY_LOG)
+                .define('B', Items.CHERRY_LOG)
+                .unlockedBy("has_cherry_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.CHERRY_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CRIMSON_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_CRIMSON_STEM)
+                .define('B', Items.CRIMSON_STEM)
+                .unlockedBy("has_crimson_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.CRIMSON_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.WARPED_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_WARPED_STEM)
+                .define('B', Items.WARPED_STEM)
+                .unlockedBy("has_warped_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.WARPED_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.DARK_OAK_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_DARK_OAK_LOG)
+                .define('B', Items.DARK_OAK_LOG)
+                .unlockedBy("has_dark_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.DARK_OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.ACACIA_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_ACACIA_LOG)
+                .define('B', Items.ACACIA_LOG)
+                .unlockedBy("has_acacia_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.ACACIA_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SPRUCE_STUMP.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', Items.STRIPPED_SPRUCE_LOG)
+                .define('B', Items.SPRUCE_LOG)
+                .unlockedBy("has_spruce_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.SPRUCE_PLANKS).build()))
+                .save(pWriter);
+
 
     }
 }

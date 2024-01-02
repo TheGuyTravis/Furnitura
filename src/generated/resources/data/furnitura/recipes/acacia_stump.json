@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    "B": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " A "
+  ],
+  "result": {
+    "item": "furnitura:acacia_stump"
+  },
+  "show_notification": true
+}

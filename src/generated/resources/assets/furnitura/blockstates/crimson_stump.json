@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/crimson_stump",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/crimson_stump"
+    },
+    "facing=south": {
+      "model": "furnitura:block/crimson_stump",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/crimson_stump",
+      "y": 270
+    }
+  }
+}

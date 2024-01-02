@@ -557,6 +557,33 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_SPRUCE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_spruce")));
 
+        horizontalBlock(ModBlocks.OAK_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/oak_stump")));
+
+        horizontalBlock(ModBlocks.JUNGLE_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/jungle_stump")));
+
+        horizontalBlock(ModBlocks.MANGROVE_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/mangrove_stump")));
+
+        horizontalBlock(ModBlocks.CHERRY_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/cherry_stump")));
+
+        horizontalBlock(ModBlocks.CRIMSON_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/crimson_stump")));
+
+        horizontalBlock(ModBlocks.WARPED_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/warped_stump")));
+
+        horizontalBlock(ModBlocks.DARK_OAK_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/dark_oak_stump")));
+
+        horizontalBlock(ModBlocks.ACACIA_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/acacia_stump")));
+
+        horizontalBlock(ModBlocks.SPRUCE_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/spruce_stump")));
+
 
 
 

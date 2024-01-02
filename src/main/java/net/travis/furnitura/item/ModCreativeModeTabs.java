@@ -181,7 +181,17 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SINGLE_CUSHION_RED.get());
                         output.accept(ModBlocks.SINGLE_CUSHION_WHITE.get());
                         output.accept(ModBlocks.SINGLE_CUSHION_YELLOW.get());
+                        output.accept(ModBlocks.OAK_STUMP.get());
+                        output.accept(ModBlocks.JUNGLE_STUMP.get());
+                        output.accept(ModBlocks.MANGROVE_STUMP.get());
+                        output.accept(ModBlocks.CHERRY_STUMP.get());
+                        output.accept(ModBlocks.CRIMSON_STUMP.get());
+                        output.accept(ModBlocks.WARPED_STUMP.get());
+                        output.accept(ModBlocks.DARK_OAK_STUMP.get());
+                        output.accept(ModBlocks.ACACIA_STUMP.get());
+                        output.accept(ModBlocks.SPRUCE_STUMP.get());
                         output.accept(ModBlocks.MAILBOX.get());
+
 
                         output.accept(ModBlocks.CUSSION_LOW.get());
                         output.accept(ModBlocks.WOODEN_COUCH_EDGE_LEFT_RED.get());

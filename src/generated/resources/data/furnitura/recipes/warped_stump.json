@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stripped_warped_stem"
+    },
+    "B": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " A "
+  ],
+  "result": {
+    "item": "furnitura:warped_stump"
+  },
+  "show_notification": true
+}

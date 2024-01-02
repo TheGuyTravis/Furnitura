@@ -199,6 +199,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> SINGLE_LEG_TABLE_DARK_OAK = registerBlock("single_leg_table_dark_oak", () -> new SingleLegTableDarkOakBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> SINGLE_LEG_TABLE_ACACIA = registerBlock("single_leg_table_acacia", () -> new SingleLegTableAcaciaBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> SINGLE_LEG_TABLE_SPRUCE = registerBlock("single_leg_table_spruce", () -> new SingleLegTableSpruceBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> OAK_STUMP = registerBlock("oak_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> JUNGLE_STUMP = registerBlock("jungle_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> MANGROVE_STUMP = registerBlock("mangrove_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> CHERRY_STUMP = registerBlock("cherry_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> CRIMSON_STUMP = registerBlock("crimson_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> WARPED_STUMP = registerBlock("warped_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.WARPED_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> DARK_OAK_STUMP = registerBlock("dark_oak_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> ACACIA_STUMP = registerBlock("acacia_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> SPRUCE_STUMP = registerBlock("spruce_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

@@ -380,6 +380,25 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.SINGLE_LEG_TABLE_SPRUCE.get());
 
+        complexBlock(ModBlocks.OAK_STUMP.get());
+
+        complexBlock(ModBlocks.JUNGLE_STUMP.get());
+
+        complexBlock(ModBlocks.MANGROVE_STUMP.get());
+
+        complexBlock(ModBlocks.CHERRY_STUMP.get());
+
+        complexBlock(ModBlocks.CRIMSON_STUMP.get());
+
+        complexBlock(ModBlocks.WARPED_STUMP.get());
+
+        complexBlock(ModBlocks.DARK_OAK_STUMP.get());
+
+        complexBlock(ModBlocks.ACACIA_STUMP.get());
+
+        complexBlock(ModBlocks.SPRUCE_STUMP.get());
+
+
 
 
 

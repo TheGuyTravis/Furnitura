@@ -196,6 +196,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SINGLE_LEG_TABLE_DARK_OAK.get());
         this.dropSelf(ModBlocks.SINGLE_LEG_TABLE_ACACIA.get());
         this.dropSelf(ModBlocks.SINGLE_LEG_TABLE_SPRUCE.get());
+        this.dropSelf(ModBlocks.OAK_STUMP.get());
+        this.dropSelf(ModBlocks.JUNGLE_STUMP.get());
+        this.dropSelf(ModBlocks.MANGROVE_STUMP.get());
+        this.dropSelf(ModBlocks.CHERRY_STUMP.get());
+        this.dropSelf(ModBlocks.CRIMSON_STUMP.get());
+        this.dropSelf(ModBlocks.WARPED_STUMP.get());
+        this.dropSelf(ModBlocks.DARK_OAK_STUMP.get());
+        this.dropSelf(ModBlocks.ACACIA_STUMP.get());
+        this.dropSelf(ModBlocks.SPRUCE_STUMP.get());
 
     }
 
