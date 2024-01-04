@@ -11,11 +11,11 @@ import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import org.jetbrains.annotations.Nullable;
 
-public class SmallTableDarkOakBlock extends HorizontalDirectionalBlock {
-    public SmallTableDarkOakBlock(Properties pProperties) {
+public class SingleLegTableBlock extends HorizontalDirectionalBlock {
+    public SingleLegTableBlock(Properties pProperties) {
         super(pProperties);
     }
-    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 8, 16);
+    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 12, 16);
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
