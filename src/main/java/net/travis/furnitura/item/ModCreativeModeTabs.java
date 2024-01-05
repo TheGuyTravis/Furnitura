@@ -194,9 +194,6 @@ public class ModCreativeModeTabs {
 
 
                         output.accept(ModBlocks.CUSSION_LOW.get());
-                        output.accept(ModBlocks.WOODEN_COUCH_EDGE_LEFT_RED.get());
-                        output.accept(ModBlocks.COUCH_SINGLE_RED.get());
-                        output.accept(ModBlocks.COUCH_EDGE_RIGHT_RED.get());
                         output.accept(ModBlocks.MICROWAVE_BLOCK.get());
                         output.accept(ModBlocks.TOASTER.get());
                         output.accept(ModBlocks.BLUE_PET_BED.get());
