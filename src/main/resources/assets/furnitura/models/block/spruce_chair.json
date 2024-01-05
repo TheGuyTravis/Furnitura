@@ -1,9 +1,9 @@
 {
 	"parent": "furnitura:block/chair",
 	"textures": {
-		"0": "minecraft:block/stripped_spruce_log",
-		"1": "minecraft:block/spruce_log",
-		"2": "minecraft:block/spruce_planks"
+		"1": "block/spruce_log",
+		"3": "block/stripped_spruce_log",
+		"4": "block/spruce_planks"
 
 	}
 }

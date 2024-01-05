@@ -37,6 +37,7 @@ public class FurnituraMod {
         ModEntities.REGISTER.register(modEventBus);
         modEventBus.addListener(ClientHandler::onRegisterRenderers);
 
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -68,6 +69,7 @@ public class FurnituraMod {
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
+
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
 

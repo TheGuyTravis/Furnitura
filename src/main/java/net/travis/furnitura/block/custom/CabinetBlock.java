@@ -15,6 +15,7 @@ public class CabinetBlock extends HorizontalDirectionalBlock {
     public CabinetBlock(Properties pProperties) {
         super(pProperties);
     }
+
     private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 16, 16);
 
 
@@ -34,6 +35,9 @@ public class CabinetBlock extends HorizontalDirectionalBlock {
         pBuilder.add(FACING);
     }
 
-
-
 }
+
+
+
+
+

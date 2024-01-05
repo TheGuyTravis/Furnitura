@@ -23,7 +23,7 @@ public abstract class FurnitureHorizontalBlock extends FurnitureBlock
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context)
     {
-        return super.getStateForPlacement(context).setValue(DIRECTION, context.getHorizontalDirection());
+        return super.getStateForPlacement(context).setValue(DIRECTION, context.getHorizontalDirection().getOpposite());
     }
 
     @Override
