@@ -1900,6 +1900,27 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.SPRUCE_PLANKS).build()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OAK_CRATE.get())
+                .pattern("ACA")
+                .pattern("ABA")
+                .pattern("ACA")
+                .define('A', Items.STRIPPED_OAK_LOG)
+                .define('B', Items.OAK_LOG)
+                .define('C', Items.OAK_PLANKS)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OAK_DESK.get())
+                .pattern("BBB")
+                .pattern("AAA")
+                .pattern("A A")
+                .define('A', Items.OAK_LOG)
+                .define('B', Items.STRIPPED_OAK_LOG)
+                .unlockedBy("has_oak_planks", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(Items.OAK_PLANKS).build()))
+                .save(pWriter);
+
 
     }
 }

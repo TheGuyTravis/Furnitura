@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-30T14:38:13.2316873	Item Models: furnitura
+// 1.20.1	2024-01-07T10:59:51.7164715	Item Models: furnitura
 0a2afd51f32d461ab5a980a9e7ffedb64a9acc85 assets/furnitura/models/item/acacia_cabinet.json
 f2211307c38a8b52935df8a5933e75aaf5af59cf assets/furnitura/models/item/acacia_chair.json
 b8de9079c30e9fc672318631a56ee41410f4f1e2 assets/furnitura/models/item/acacia_log_shelf.json
@@ -69,6 +69,8 @@ c1dda0792172137795a571e5b055e04dc0ccb686 assets/furnitura/models/item/mangrove_s
 7ea7fa357431e70e83384774037c0cf8e3feea50 assets/furnitura/models/item/microwave_block.json
 9c8c793f25275bfc19462fa552c0f3413fab4f63 assets/furnitura/models/item/oak_cabinet.json
 5280fecfec399e2f757b7335c1a4a3124f522db7 assets/furnitura/models/item/oak_chair.json
+2850e40c42f625d3b9226997f9e409a1a0d7d080 assets/furnitura/models/item/oak_crate.json
+d6027790b4cd72eceeed3b40b2d3e38d58aaa02a assets/furnitura/models/item/oak_desk.json
 e379d22ec905d38039622bbfaf7b0d18ca3b1a1d assets/furnitura/models/item/oak_log_shelf.json
 b502d71ee0f541ff6b6ca5f92c00da1ea5f90f01 assets/furnitura/models/item/oak_shelf.json
 1004f74b0f15dddc81fb2e7b37fe5e2c85d6d11a assets/furnitura/models/item/oak_shelf_extenders.json

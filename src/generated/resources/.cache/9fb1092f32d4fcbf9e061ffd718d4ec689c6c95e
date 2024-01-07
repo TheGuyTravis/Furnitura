@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-30T14:38:13.2326879	Recipes
+// 1.20.1	2024-01-07T10:59:51.7174711	Recipes
 7c438010351be0f54a6620f41e075b46a6a1ad13 data/furnitura/advancements/recipes/misc/acacia_cabinet.json
 719427a53b829922519f8dbd4aeb421f13dfa1b7 data/furnitura/advancements/recipes/misc/acacia_chair.json
 fec985b614444f94e5fb5ecf15824714f1d922fb data/furnitura/advancements/recipes/misc/acacia_log_shelf.json
@@ -66,6 +66,8 @@ b744e99cb826ec19c3178d7f82a7cff10edd44e6 data/furnitura/advancements/recipes/mis
 10d982fdf66f92066b49cf8cb152bb0e6c6901a1 data/furnitura/advancements/recipes/misc/microwave_block.json
 9902f377ab1b721d800df28b1ecf6560eb5faab5 data/furnitura/advancements/recipes/misc/oak_cabinet.json
 76fa310043145289e651bb9de0a2600f98a28d8b data/furnitura/advancements/recipes/misc/oak_chair.json
+ee4c9779729d3b509d73043e917bde254a4e4eb9 data/furnitura/advancements/recipes/misc/oak_crate.json
+2362807110ca2722d25817c697abf88bbc2b9fd8 data/furnitura/advancements/recipes/misc/oak_desk.json
 973a6db19e8075f1d3ca7e1c8016ba27e7bb0ca2 data/furnitura/advancements/recipes/misc/oak_log_shelf.json
 34eb514ddc3a6d0dbc65fab5af905c7f80dc13b2 data/furnitura/advancements/recipes/misc/oak_shelf.json
 ad5e83f8593a0971e7a9a8a4f2fa80949df96c98 data/furnitura/advancements/recipes/misc/oak_shelf_extenders.json
@@ -248,6 +250,8 @@ b76bcb6d58449d801bca667f98cdfd56419a5c5f data/furnitura/recipes/mangrove_shelf.j
 a46b51cc31fa74dbaf8f0e15013098a7fd226342 data/furnitura/recipes/microwave_block.json
 a20a45068116043c5e043ffab8d7b9956c481a24 data/furnitura/recipes/oak_cabinet.json
 b662328f726385e571c7e6006d43a5a94028ec02 data/furnitura/recipes/oak_chair.json
+551abef9ff5dff9490051490ddb55d705c47c54e data/furnitura/recipes/oak_crate.json
+3e6a5fe46cb0e0e84719a061a73c5aee492e4e8d data/furnitura/recipes/oak_desk.json
 bc3bbe26557cad741c24a3607da0c991ff8fe586 data/furnitura/recipes/oak_log_shelf.json
 09d0785d43aa7cc7d1ec2987d3fc391362bfa038 data/furnitura/recipes/oak_shelf.json
 58d85773d80febc999e280db256871585adf1899 data/furnitura/recipes/oak_shelf_extenders.json

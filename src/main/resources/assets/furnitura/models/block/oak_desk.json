@@ -1,0 +1,8 @@
+{
+	"parent": "furnitura:block/desk_single",
+	"textures": {
+		"2": "block/oak_log",
+		"4": "block/stripped_oak_log",
+		"5": "block/oak_planks"
+	}
+}

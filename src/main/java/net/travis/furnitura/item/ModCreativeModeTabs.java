@@ -190,6 +190,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DARK_OAK_STUMP.get());
                         output.accept(ModBlocks.ACACIA_STUMP.get());
                         output.accept(ModBlocks.SPRUCE_STUMP.get());
+                        output.accept(ModBlocks.OAK_CRATE.get());
+                        output.accept(ModBlocks.OAK_DESK.get());
                         output.accept(ModBlocks.MAILBOX.get());
 
 

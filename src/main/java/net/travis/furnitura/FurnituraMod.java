@@ -51,11 +51,11 @@ public class FurnituraMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 
         }
 
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 
         }
     }

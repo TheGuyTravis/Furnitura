@@ -398,6 +398,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.SPRUCE_STUMP.get());
 
+        complexBlock(ModBlocks.OAK_CRATE.get());
+
+        complexBlock(ModBlocks.OAK_DESK.get());
+
 
 
 

@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-30T14:38:13.2266872	Block States: furnitura
+// 1.20.1	2024-01-07T11:11:19.0217377	Block States: furnitura
 1567790db25858b121c109917317ef1f580a4829 assets/furnitura/blockstates/acacia_cabinet.json
 2603432b634f854b4ee048d99232f3a84ea7f93f assets/furnitura/blockstates/acacia_chair.json
 2901c58f94431e4d5b2ed6e12c7a169c648c306e assets/furnitura/blockstates/acacia_log_shelf.json
@@ -69,6 +69,7 @@ a10ee6a3e3e0c5104db1d31f19bd6a2ba2087ad2 assets/furnitura/blockstates/mangrove_s
 c19080b13020e53140d96b7f80f7217373a7ef70 assets/furnitura/blockstates/microwave_block.json
 1e15f77184f2758e96a73585d2cf9dce89368512 assets/furnitura/blockstates/oak_cabinet.json
 68ef9d6550d0a79b6a093c433a6eec4799c9583a assets/furnitura/blockstates/oak_chair.json
+20c098671b7ac4abe4006dac4cb8bc1127201e24 assets/furnitura/blockstates/oak_crate.json
 1148153a492baf6eac1a336d2b0a12ccbfcfc886 assets/furnitura/blockstates/oak_log_shelf.json
 dd81e5d70b38cc4e583e6b46488d89fa907a81a6 assets/furnitura/blockstates/oak_shelf.json
 915a5d97c7c10a3e763ddd1ab10a6972e63e7e5e assets/furnitura/blockstates/oak_shelf_extenders.json

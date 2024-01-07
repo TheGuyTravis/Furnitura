@@ -1,4 +1,4 @@
-// 1.20.1	2023-12-30T14:38:13.2296868	Loot Tables
+// 1.20.1	2024-01-07T10:59:51.7144703	Loot Tables
 632e8ffe5a7e7e786c3d99e7ffbd088e989963d8 data/furnitura/loot_tables/blocks/acacia_cabinet.json
 6407dfcd77a4d9e269ac71136b55033f6cc8b603 data/furnitura/loot_tables/blocks/acacia_chair.json
 38e515574093b189b078ac9524462c94410e12d4 data/furnitura/loot_tables/blocks/acacia_log_shelf.json
@@ -69,6 +69,8 @@ ec8979740bcbc42463df7594980a2c759d5d7e31 data/furnitura/loot_tables/blocks/mangr
 626ee10b3f70a4b0ccb4b69b6d4e5cd865cfecc2 data/furnitura/loot_tables/blocks/microwave_block.json
 8022989a1114736b8ad8e8f711e4ff89c500307b data/furnitura/loot_tables/blocks/oak_cabinet.json
 4a5850f2cae953da72973282f02f692f392eee96 data/furnitura/loot_tables/blocks/oak_chair.json
+2ab01e5cee0235bf087c4501e4bba9fa21fc4de0 data/furnitura/loot_tables/blocks/oak_crate.json
+a9cd27a92c8607e746e17a75330f310b655dc032 data/furnitura/loot_tables/blocks/oak_desk.json
 18d4bb6de60212768011c3b3c4e5e588bb3c72d9 data/furnitura/loot_tables/blocks/oak_log_shelf.json
 bb8bb1e3ef5a67ad7850f96ba836d8ffe1a7570e data/furnitura/loot_tables/blocks/oak_shelf.json
 bd5e0974b8053403fb6318e11aa95e44b6ad6416 data/furnitura/loot_tables/blocks/oak_shelf_extenders.json

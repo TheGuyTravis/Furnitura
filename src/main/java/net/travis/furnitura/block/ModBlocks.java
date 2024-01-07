@@ -208,6 +208,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> DARK_OAK_STUMP = registerBlock("dark_oak_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.DARK_OAK_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> ACACIA_STUMP = registerBlock("acacia_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> SPRUCE_STUMP = registerBlock("spruce_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> OAK_CRATE = registerBlock("oak_crate", () -> new CrateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> OAK_DESK = registerBlock("oak_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.OAK_PLANKS), DeskBlock.MaterialType.OAK));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

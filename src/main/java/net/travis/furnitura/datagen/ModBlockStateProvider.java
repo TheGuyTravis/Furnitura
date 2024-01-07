@@ -10,6 +10,7 @@ import net.travis.furnitura.FurnituraMod;
 import net.travis.furnitura.block.ModBlocks;
 
 public class ModBlockStateProvider extends BlockStateProvider {
+
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
         super(output, FurnituraMod.MOD_ID, exFileHelper);
     }
@@ -583,6 +584,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         horizontalBlock(ModBlocks.SPRUCE_STUMP.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/spruce_stump")));
+
+        horizontalBlock(ModBlocks.OAK_CRATE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/oak_crate")));
+
+
+
 
 
 
