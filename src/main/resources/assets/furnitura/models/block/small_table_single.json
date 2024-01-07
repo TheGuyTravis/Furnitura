@@ -106,7 +106,7 @@
 		},
 		"gui": {
 			"rotation": [24, -132, 0],
-			"translation": [0, 1.5, 0],
+			"translation": [0, 1.75, 0],
 			"scale": [0.7, 0.7, 0.7]
 		},
 		"fixed": {
@@ -115,7 +115,7 @@
 	},
 	"groups": [
 		{
-			"name": "Base",
+			"name": "VoxelShapes",
 			"origin": [0, 0, 0],
 			"color": 0,
 			"children": [0, 1]

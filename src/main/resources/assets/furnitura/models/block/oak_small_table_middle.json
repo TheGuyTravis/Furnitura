@@ -1,5 +1,5 @@
 {
-	"parent": "furnitura:block/small_table_single",
+	"parent": "furnitura:block/small_table_middle",
 	"textures": {
 		"1": "block/oak_log",
 		"3": "block/stripped_oak_log",

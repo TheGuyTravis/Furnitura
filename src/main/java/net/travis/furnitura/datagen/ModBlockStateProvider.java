@@ -474,8 +474,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.LARGE_COUCH_SINGLE_BLACK.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/large_couch_single_black")));
 
-        horizontalBlock(ModBlocks.SMALL_TABLE_OAK.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_oak")));
 
         horizontalBlock(ModBlocks.SMALL_TABLE_JUNGLE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/small_table_jungle")));
