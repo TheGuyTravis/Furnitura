@@ -200,5 +200,6 @@
   "block.furnitura.warped_desk": "Warped Desk",
   "block.furnitura.dark_oak_desk": "Dark Oak Desk",
   "block.furnitura.acacia_desk": "Acacia Desk",
-  "block.furnitura.spruce_desk": "Spruce Desk"
+  "block.furnitura.spruce_desk": "Spruce Desk",
+  "container.furnitura.cabinet": "Cabinet"
 }

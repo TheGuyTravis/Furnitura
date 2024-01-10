@@ -479,7 +479,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                         .of(Items.IRON_BLOCK).build()))
                 .save(pWriter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.OAK_CABINET.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CABINET_OAK.get())
                 .pattern("ABA")
                 .pattern("ACA")
                 .pattern("ABA")

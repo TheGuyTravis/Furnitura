@@ -69,7 +69,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> ACACIA_SHELF_EXTENDERS = registerBlock("acacia_shelf_extenders", () -> new ShelfExtendersBlock(BlockBehaviour.Properties.copy(Blocks.ACACIA_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> SPRUCE_SHELF = registerBlock("spruce_shelf", () -> new ShelfBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> SPRUCE_SHELF_EXTENDERS = registerBlock("spruce_shelf_extenders", () -> new ShelfExtendersBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
-    public static final RegistryObject<Block> OAK_CABINET = registerBlock("oak_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
+    public static final RegistryObject<Block> CABINET_OAK = registerBlock("oak_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> JUNGLE_CABINET = registerBlock("jungle_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(Blocks.JUNGLE_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> MANGROVE_CABINET = registerBlock("mangrove_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(Blocks.MANGROVE_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> CHERRY_CABINET = registerBlock("cherry_cabinet", () -> new CabinetBlock(BlockBehaviour.Properties.copy(Blocks.CHERRY_PLANKS).noOcclusion()));

@@ -5,11 +5,13 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.travis.furnitura.block.FurnitureHorizontalBlock;
 import net.travis.furnitura.util.VoxelShapeHelper;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,6 +23,12 @@ public class ShelfExtendersBlock extends FurnitureHorizontalBlock {
         super(properties);
         this.registerDefaultState(this.getStateDefinition().any().setValue(DIRECTION, Direction.SOUTH));
         SHAPES = this.generateShapes(this.getStateDefinition().getPossibleStates());
+    }
+
+    @Nullable
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return null;
     }
 
     private ImmutableMap<BlockState, VoxelShape> generateShapes(ImmutableList<BlockState> states) {

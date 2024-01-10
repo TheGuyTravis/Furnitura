@@ -120,7 +120,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.SPRUCE_SHELF_EXTENDERS.get());
 
-        complexBlock(ModBlocks.OAK_CABINET.get());
+        complexBlock(ModBlocks.CABINET_OAK.get());
 
         complexBlock(ModBlocks.JUNGLE_CABINET.get());
 

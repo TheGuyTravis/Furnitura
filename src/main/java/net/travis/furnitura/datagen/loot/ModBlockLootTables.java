@@ -66,7 +66,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ACACIA_SHELF_EXTENDERS.get());
         this.dropSelf(ModBlocks.SPRUCE_SHELF.get());
         this.dropSelf(ModBlocks.SPRUCE_SHELF_EXTENDERS.get());
-        this.dropSelf(ModBlocks.OAK_CABINET.get());
+        this.dropSelf(ModBlocks.CABINET_OAK.get());
         this.dropSelf(ModBlocks.JUNGLE_CABINET.get());
         this.dropSelf(ModBlocks.MANGROVE_CABINET.get());
         this.dropSelf(ModBlocks.CHERRY_CABINET.get());

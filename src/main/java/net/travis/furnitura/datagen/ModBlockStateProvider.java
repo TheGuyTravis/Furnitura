@@ -168,32 +168,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.SPRUCE_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/spruce_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.OAK_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/oak_cabinet")));
-
-        horizontalBlock(ModBlocks.JUNGLE_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/jungle_cabinet")));
-
-        horizontalBlock(ModBlocks.MANGROVE_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/mangrove_cabinet")));
-
-        horizontalBlock(ModBlocks.CHERRY_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/cherry_cabinet")));
-
-        horizontalBlock(ModBlocks.CRIMSON_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/crimson_cabinet")));
-
-        horizontalBlock(ModBlocks.WARPED_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/warped_cabinet")));
-
-        horizontalBlock(ModBlocks.DARK_OAK_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/dark_oak_cabinet")));
-
-        horizontalBlock(ModBlocks.ACACIA_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/acacia_cabinet")));
-
-        horizontalBlock(ModBlocks.SPRUCE_CABINET.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/spruce_cabinet")));
 
         horizontalBlock(ModBlocks.WOODEN_COUCH_EDGE_BLUE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_edge_blue")));

@@ -45,7 +45,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ACACIA_SHELF_EXTENDERS.get());
                         output.accept(ModBlocks.SPRUCE_SHELF.get());
                         output.accept(ModBlocks.SPRUCE_SHELF_EXTENDERS.get());
-                        output.accept(ModBlocks.OAK_CABINET.get());
+                        output.accept(ModBlocks.CABINET_OAK.get());
                         output.accept(ModBlocks.JUNGLE_CABINET.get());
                         output.accept(ModBlocks.MANGROVE_CABINET.get());
                         output.accept(ModBlocks.CHERRY_CABINET.get());
