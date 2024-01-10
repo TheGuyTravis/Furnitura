@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_log"
+    },
+    "B": {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:dark_oak_desk"
+  },
+  "show_notification": true
+}

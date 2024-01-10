@@ -402,6 +402,20 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.OAK_DESK.get());
 
+        complexBlock(ModBlocks.JUNGLE_DESK.get());
+
+        complexBlock(ModBlocks.MANGROVE_DESK.get());
+
+        complexBlock(ModBlocks.CRIMSON_DESK.get());
+
+        complexBlock(ModBlocks.WARPED_DESK.get());
+
+        complexBlock(ModBlocks.DARK_OAK_DESK.get());
+
+        complexBlock(ModBlocks.ACACIA_DESK.get());
+
+        complexBlock(ModBlocks.SPRUCE_DESK.get());
+
 
 
 

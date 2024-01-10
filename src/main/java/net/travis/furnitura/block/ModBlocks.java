@@ -210,6 +210,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> SPRUCE_STUMP = registerBlock("spruce_stump", () -> new StumpBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> OAK_CRATE = registerBlock("oak_crate", () -> new CrateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).noOcclusion()));
     public static final RegistryObject<Block> OAK_DESK = registerBlock("oak_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.OAK_PLANKS), DeskBlock.MaterialType.OAK));
+    public static final RegistryObject<Block> JUNGLE_DESK = registerBlock("jungle_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.JUNGLE_PLANKS), DeskBlock.MaterialType.JUNGLE));
+    public static final RegistryObject<Block> MANGROVE_DESK = registerBlock("mangrove_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.MANGROVE_PLANKS), DeskBlock.MaterialType.MANGROVE));
+    public static final RegistryObject<Block> CRIMSON_DESK = registerBlock("crimson_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.CRIMSON_PLANKS), DeskBlock.MaterialType.CRIMSON));
+    public static final RegistryObject<Block> WARPED_DESK = registerBlock("warped_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.WARPED_PLANKS), DeskBlock.MaterialType.WARPED));
+    public static final RegistryObject<Block> DARK_OAK_DESK = registerBlock("dark_oak_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.DARK_OAK_PLANKS), DeskBlock.MaterialType.DARK_OAK));
+    public static final RegistryObject<Block> ACACIA_DESK = registerBlock("acacia_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.ACACIA_PLANKS), DeskBlock.MaterialType.ACACIA));
+    public static final RegistryObject<Block> SPRUCE_DESK = registerBlock("spruce_desk", () -> new DeskBlock(Block.Properties.copy(Blocks.SPRUCE_PLANKS), DeskBlock.MaterialType.SPRUCE));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

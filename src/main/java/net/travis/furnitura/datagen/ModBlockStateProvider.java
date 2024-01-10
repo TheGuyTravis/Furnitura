@@ -475,29 +475,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 new ModelFile.UncheckedModelFile(modLoc("block/large_couch_single_black")));
 
 
-        horizontalBlock(ModBlocks.SMALL_TABLE_JUNGLE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_jungle")));
-
-        horizontalBlock(ModBlocks.SMALL_TABLE_MANGROVE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_mangrove")));
-
-        horizontalBlock(ModBlocks.SMALL_TABLE_CHERRY.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_cherry")));
-
-        horizontalBlock(ModBlocks.SMALL_TABLE_CRIMSON.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_crimson")));
-
-        horizontalBlock(ModBlocks.SMALL_TABLE_WARPED.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_warped")));
-
-        horizontalBlock(ModBlocks.SMALL_TABLE_DARK_OAK.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_dark_oak")));
-
-        horizontalBlock(ModBlocks.SMALL_TABLE_ACACIA.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_acacia")));
-
-        horizontalBlock(ModBlocks.SMALL_TABLE_SPRUCE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/small_table_spruce")));
 
         horizontalBlock(ModBlocks.MAILBOX.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/mailbox")));

@@ -1,0 +1,9 @@
+
+{
+	"parent": "furnitura:block/small_table_left",
+	"textures": {
+		"1": "block/warped_stem",
+		"3": "block/stripped_warped_stem",
+		"4": "block/warped_planks"
+	}
+}

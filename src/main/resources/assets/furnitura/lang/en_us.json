@@ -193,5 +193,12 @@
   "block.furnitura.cabinet": "Cabinet",
   "block.furnitura.oak_crate": "Oak Crate",
   "block.furnitura.oak_crate": "Oak Crate",
-  "block.furnitura.oak_desk": "Oak Desk"
+  "block.furnitura.oak_desk": "Oak Desk",
+  "block.furnitura.jungle_desk": "Jungle Desk",
+  "block.furnitura.mangrove_desk": "Mangrove Desk",
+  "block.furnitura.crimson_desk": "Crimson Desk",
+  "block.furnitura.warped_desk": "Warped Desk",
+  "block.furnitura.dark_oak_desk": "Dark Oak Desk",
+  "block.furnitura.acacia_desk": "Acacia Desk",
+  "block.furnitura.spruce_desk": "Spruce Desk"
 }

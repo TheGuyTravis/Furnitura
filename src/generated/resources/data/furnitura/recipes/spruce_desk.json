@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:spruce_log"
+    },
+    "B": {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:spruce_desk"
+  },
+  "show_notification": true
+}

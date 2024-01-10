@@ -207,6 +207,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SPRUCE_STUMP.get());
         this.dropSelf(ModBlocks.OAK_CRATE.get());
         this.dropSelf(ModBlocks.OAK_DESK.get());
+        this.dropSelf(ModBlocks.JUNGLE_DESK.get());
+        this.dropSelf(ModBlocks.MANGROVE_DESK.get());
+        this.dropSelf(ModBlocks.CRIMSON_DESK.get());
+        this.dropSelf(ModBlocks.WARPED_DESK.get());
+        this.dropSelf(ModBlocks.DARK_OAK_DESK.get());
+        this.dropSelf(ModBlocks.ACACIA_DESK.get());
+        this.dropSelf(ModBlocks.SPRUCE_DESK.get());
 
     }
 

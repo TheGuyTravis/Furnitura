@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:jungle_log"
+    },
+    "B": {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:jungle_desk"
+  },
+  "show_notification": true
+}

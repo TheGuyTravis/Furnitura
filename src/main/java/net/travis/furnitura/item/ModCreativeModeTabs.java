@@ -192,6 +192,13 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SPRUCE_STUMP.get());
                         output.accept(ModBlocks.OAK_CRATE.get());
                         output.accept(ModBlocks.OAK_DESK.get());
+                        output.accept(ModBlocks.JUNGLE_DESK.get());
+                        output.accept(ModBlocks.MANGROVE_DESK.get());
+                        output.accept(ModBlocks.CRIMSON_DESK.get());
+                        output.accept(ModBlocks.WARPED_DESK.get());
+                        output.accept(ModBlocks.DARK_OAK_DESK.get());
+                        output.accept(ModBlocks.ACACIA_DESK.get());
+                        output.accept(ModBlocks.SPRUCE_DESK.get());
                         output.accept(ModBlocks.MAILBOX.get());
 
 

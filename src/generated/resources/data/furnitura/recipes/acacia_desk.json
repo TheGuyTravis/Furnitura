@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_log"
+    },
+    "B": {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "AAA",
+    "A A"
+  ],
+  "result": {
+    "item": "furnitura:acacia_desk"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,9 @@
+
+{
+	"parent": "furnitura:block/small_table_left",
+	"textures": {
+		"1": "block/crimson_stem",
+		"3": "block/stripped_crimson_stem",
+		"4": "block/crimson_planks"
+	}
+}
