@@ -1,0 +1,7 @@
+{
+	"parent": "furnitura:block/shelf_left",
+	"textures": {
+		"2": "block/warped_stem",
+		"5": "block/warped_planks"
+	}
+}

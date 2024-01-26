@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:mangrove_log"
+    },
+    "B": {
+      "item": "minecraft:stripped_mangrove_log"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " C "
+  ],
+  "result": {
+    "item": "furnitura:mangrove_mailbox"
+  },
+  "show_notification": true
+}

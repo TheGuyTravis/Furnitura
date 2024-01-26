@@ -1,35 +1,69 @@
 package net.travis.furnitura.block.custom;
 
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableMap;
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.HorizontalDirectionalBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.travis.furnitura.block.FurnitureHorizontalBlock;
+import net.travis.furnitura.util.VoxelShapeHelper;
 import org.jetbrains.annotations.Nullable;
 
-public class LogShelfBlock extends HorizontalDirectionalBlock {
-    public LogShelfBlock(Properties pProperties) {
-        super(pProperties);
-    }
-    private static final VoxelShape SHAPE = Block.box(0, 0, 0, 16, 16, 16);
+import java.util.ArrayList;
+import java.util.List;
 
-    @Override
-    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
-        return SHAPE;
+public class LogShelfBlock extends FurnitureHorizontalBlock
+{
+    public final ImmutableMap<BlockState, VoxelShape> SHAPES;
+
+    public LogShelfBlock(Properties properties)
+    {
+        super(properties);
+        this.registerDefaultState(this.getStateDefinition().any().setValue(DIRECTION, Direction.SOUTH));
+        SHAPES = this.generateShapes(this.getStateDefinition().getPossibleStates());
     }
 
     @Nullable
     @Override
-    public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-        return this.defaultBlockState().setValue(FACING, pContext.getHorizontalDirection().getOpposite());
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return null;
+    }
+
+    private ImmutableMap<BlockState, VoxelShape> generateShapes(ImmutableList<BlockState> states)
+    {
+        final VoxelShape[] ONE_ = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(0, 0, 0, 16, 2, 16), Direction.SOUTH));
+        final VoxelShape[] TWO_ = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(0, 14, 0, 16, 16, 16), Direction.SOUTH));
+        final VoxelShape[] THREE_ = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(0, 2, 0, 2, 14, 16), Direction.SOUTH));
+        final VoxelShape[] FOUR_ = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(14, 2, 0, 16, 14, 16), Direction.SOUTH));
+
+        ImmutableMap.Builder<BlockState, VoxelShape> builder = new ImmutableMap.Builder<>();
+        for(BlockState state : states)
+        {
+            Direction direction = state.getValue(DIRECTION);
+            List<VoxelShape> shapes = new ArrayList<>();
+            shapes.add(ONE_[direction.get2DDataValue()]);
+            shapes.add(TWO_[direction.get2DDataValue()]);
+            shapes.add(THREE_[direction.get2DDataValue()]);
+            shapes.add(FOUR_[direction.get2DDataValue()]);
+            builder.put(state, VoxelShapeHelper.combineAll(shapes));
+        }
+        return builder.build();
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(FACING);
+    public VoxelShape getShape(BlockState state, BlockGetter reader, BlockPos pos, CollisionContext context)
+    {
+        return SHAPES.get(state);
+    }
+
+    @Override
+    public VoxelShape getOcclusionShape(BlockState state, BlockGetter reader, BlockPos pos)
+    {
+        return SHAPES.get(state);
     }
 }

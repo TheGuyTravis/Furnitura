@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:oak_slab"
+    },
+    "B": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "item": "furnitura:oak_stool"
+  },
+  "show_notification": true
+}

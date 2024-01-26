@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:mangrove_slab"
+    },
+    "B": {
+      "item": "minecraft:mangrove_log"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "item": "furnitura:mangrove_stool"
+  },
+  "show_notification": true
+}

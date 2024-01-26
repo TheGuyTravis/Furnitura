@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/acacia_stool",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/acacia_stool"
+    },
+    "facing=south": {
+      "model": "furnitura:block/acacia_stool",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/acacia_stool",
+      "y": 270
+    }
+  }
+}

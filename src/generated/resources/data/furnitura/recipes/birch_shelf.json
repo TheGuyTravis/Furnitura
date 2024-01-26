@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:birch_log"
+    },
+    "B": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "pattern": [
+    "BBB",
+    "BBA",
+    "BBB"
+  ],
+  "result": {
+    "item": "furnitura:birch_shelf"
+  },
+  "show_notification": true
+}

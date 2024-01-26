@@ -177,7 +177,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.SMALL_TABLE_DARK_OAK.get());
         this.dropSelf(ModBlocks.SMALL_TABLE_ACACIA.get());
         this.dropSelf(ModBlocks.SMALL_TABLE_SPRUCE.get());
-        this.dropSelf(ModBlocks.MAILBOX.get());
         this.dropSelf(ModBlocks.OAK_LOG_SHELF.get());
         this.dropSelf(ModBlocks.JUNGLE_LOG_SHELF.get());
         this.dropSelf(ModBlocks.MANGROVE_LOG_SHELF.get());
@@ -206,6 +205,13 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ACACIA_STUMP.get());
         this.dropSelf(ModBlocks.SPRUCE_STUMP.get());
         this.dropSelf(ModBlocks.OAK_CRATE.get());
+        this.dropSelf(ModBlocks.JUNGLE_CRATE.get());
+        this.dropSelf(ModBlocks.MANGROVE_CRATE.get());
+        this.dropSelf(ModBlocks.CRIMSON_CRATE.get());
+        this.dropSelf(ModBlocks.WARPED_CRATE.get());
+        this.dropSelf(ModBlocks.DARK_OAK_CRATE.get());
+        this.dropSelf(ModBlocks.ACACIA_CRATE.get());
+        this.dropSelf(ModBlocks.SPRUCE_CRATE.get());
         this.dropSelf(ModBlocks.OAK_DESK.get());
         this.dropSelf(ModBlocks.JUNGLE_DESK.get());
         this.dropSelf(ModBlocks.MANGROVE_DESK.get());
@@ -214,6 +220,35 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.DARK_OAK_DESK.get());
         this.dropSelf(ModBlocks.ACACIA_DESK.get());
         this.dropSelf(ModBlocks.SPRUCE_DESK.get());
+        this.dropSelf(ModBlocks.OAK_MAILBOX.get());
+        this.dropSelf(ModBlocks.JUNGLE_MAILBOX.get());
+        this.dropSelf(ModBlocks.MANGROVE_MAILBOX.get());
+        this.dropSelf(ModBlocks.CHERRY_MAILBOX.get());
+        this.dropSelf(ModBlocks.CRIMSON_MAILBOX.get());
+        this.dropSelf(ModBlocks.WARPED_MAILBOX.get());
+        this.dropSelf(ModBlocks.DARK_OAK_MAILBOX.get());
+        this.dropSelf(ModBlocks.ACACIA_MAILBOX.get());
+        this.dropSelf(ModBlocks.SPRUCE_MAILBOX.get());
+        this.dropSelf(ModBlocks.OAK_STOOL.get());
+        this.dropSelf(ModBlocks.JUNGLE_STOOL.get());
+        this.dropSelf(ModBlocks.MANGROVE_STOOL.get());
+        this.dropSelf(ModBlocks.CHERRY_STOOL.get());
+        this.dropSelf(ModBlocks.CRIMSON_STOOL.get());
+        this.dropSelf(ModBlocks.WARPED_STOOL.get());
+        this.dropSelf(ModBlocks.DARK_OAK_STOOL.get());
+        this.dropSelf(ModBlocks.ACACIA_STOOL.get());
+        this.dropSelf(ModBlocks.SPRUCE_STOOL.get());
+        this.dropSelf(ModBlocks.BIRCH_STOOL.get());
+        this.dropSelf(ModBlocks.BIRCH_CHAIR.get());
+        this.dropSelf(ModBlocks.BIRCH_CABINET.get());
+        this.dropSelf(ModBlocks.BIRCH_LOG_SHELF.get());
+        this.dropSelf(ModBlocks.BIRCH_SHELF.get());
+        this.dropSelf(ModBlocks.BIRCH_TABLE.get());
+        this.dropSelf(ModBlocks.SMALL_TABLE_BIRCH.get());
+        this.dropSelf(ModBlocks.SINGLE_LEG_TABLE_BIRCH.get());
+        this.dropSelf(ModBlocks.BIRCH_STUMP.get());
+        this.dropSelf(ModBlocks.BIRCH_CRATE.get());
+        this.dropSelf(ModBlocks.BIRCH_MAILBOX.get());
 
     }
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stripped_birch_log"
+    },
+    "B": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "pattern": [
+    " A ",
+    " B ",
+    " A "
+  ],
+  "result": {
+    "item": "furnitura:birch_stump"
+  },
+  "show_notification": true
+}

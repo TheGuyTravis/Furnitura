@@ -342,7 +342,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.SMALL_TABLE_SPRUCE.get());
 
-        complexBlock(ModBlocks.MAILBOX.get());
 
         complexBlock(ModBlocks.OAK_LOG_SHELF.get());
 
@@ -400,9 +399,24 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         complexBlock(ModBlocks.OAK_CRATE.get());
 
+        complexBlock(ModBlocks.JUNGLE_CRATE.get());
+
+        complexBlock(ModBlocks.MANGROVE_CRATE.get());
+
+        complexBlock(ModBlocks.CRIMSON_CRATE.get());
+
+        complexBlock(ModBlocks.WARPED_CRATE.get());
+
+        complexBlock(ModBlocks.DARK_OAK_CRATE.get());
+
+        complexBlock(ModBlocks.ACACIA_CRATE.get());
+
+        complexBlock(ModBlocks.SPRUCE_CRATE.get());
+
         complexBlock(ModBlocks.OAK_DESK.get());
 
         complexBlock(ModBlocks.JUNGLE_DESK.get());
+
 
         complexBlock(ModBlocks.MANGROVE_DESK.get());
 
@@ -415,6 +429,64 @@ public class ModItemModelProvider extends ItemModelProvider {
         complexBlock(ModBlocks.ACACIA_DESK.get());
 
         complexBlock(ModBlocks.SPRUCE_DESK.get());
+
+        complexBlock(ModBlocks.OAK_MAILBOX.get());
+
+        complexBlock(ModBlocks.JUNGLE_MAILBOX.get());
+
+        complexBlock(ModBlocks.MANGROVE_MAILBOX.get());
+
+        complexBlock(ModBlocks.CHERRY_MAILBOX.get());
+
+        complexBlock(ModBlocks.CRIMSON_MAILBOX.get());
+
+        complexBlock(ModBlocks.WARPED_MAILBOX.get());
+
+        complexBlock(ModBlocks.DARK_OAK_MAILBOX.get());
+
+        complexBlock(ModBlocks.ACACIA_MAILBOX.get());
+
+        complexBlock(ModBlocks.SPRUCE_MAILBOX.get());
+
+        complexBlock(ModBlocks.OAK_STOOL.get());
+
+        complexBlock(ModBlocks.JUNGLE_STOOL.get());
+
+        complexBlock(ModBlocks.MANGROVE_STOOL.get());
+
+        complexBlock(ModBlocks.CHERRY_STOOL.get());
+
+        complexBlock(ModBlocks.CRIMSON_STOOL.get());
+
+        complexBlock(ModBlocks.WARPED_STOOL.get());
+
+        complexBlock(ModBlocks.DARK_OAK_STOOL.get());
+
+        complexBlock(ModBlocks.ACACIA_STOOL.get());
+
+        complexBlock(ModBlocks.SPRUCE_STOOL.get());
+
+        complexBlock(ModBlocks.BIRCH_STOOL.get());
+
+        complexBlock(ModBlocks.BIRCH_CHAIR.get());
+
+        complexBlock(ModBlocks.BIRCH_CABINET.get());
+
+        complexBlock(ModBlocks.BIRCH_LOG_SHELF.get());
+
+        complexBlock(ModBlocks.BIRCH_SHELF.get());
+
+        complexBlock(ModBlocks.BIRCH_TABLE.get());
+
+        complexBlock(ModBlocks.SMALL_TABLE_BIRCH.get());
+
+        complexBlock(ModBlocks.SINGLE_LEG_TABLE_BIRCH.get());
+
+        complexBlock(ModBlocks.BIRCH_STUMP.get());
+
+        complexBlock(ModBlocks.BIRCH_CRATE.get());
+
+        complexBlock(ModBlocks.BIRCH_MAILBOX.get());
 
 
 

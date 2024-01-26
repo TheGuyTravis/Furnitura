@@ -43,7 +43,7 @@ public class CabinetBlockEntity extends RandomizableContainerBlockEntity {
     };
 
     public CabinetBlockEntity(BlockPos pPos, BlockState pBlockState) {
-        super(BlockEntityType.BARREL, pPos, pBlockState);
+        super(ModBlockEntities.CABINET.get(), pPos, pBlockState);
     }
 
     protected CabinetBlockEntity(BlockEntityType<?> pType, BlockPos pPos, BlockState pBlockState) {
@@ -118,5 +118,4 @@ public class CabinetBlockEntity extends RandomizableContainerBlockEntity {
 
 
 
-    }
-
+}

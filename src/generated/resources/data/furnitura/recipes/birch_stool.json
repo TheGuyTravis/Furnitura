@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:birch_slab"
+    },
+    "B": {
+      "item": "minecraft:birch_log"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "item": "furnitura:birch_stool"
+  },
+  "show_notification": true
+}

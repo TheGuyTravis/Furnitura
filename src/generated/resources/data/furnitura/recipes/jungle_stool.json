@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:jungle_slab"
+    },
+    "B": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "item": "furnitura:jungle_stool"
+  },
+  "show_notification": true
+}

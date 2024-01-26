@@ -30,8 +30,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.WOODEN_COUCH_END.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_end")));
 
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single")));
 
         horizontalBlock(ModBlocks.WOODEN_COUCH_EDGE_RIGHT.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_edge_right")));
@@ -111,59 +109,47 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.ACACIA_CHAIR.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/acacia_chair")));
 
-        horizontalBlock(ModBlocks.OAK_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/oak_shelf")));
-
         horizontalBlock(ModBlocks.OAK_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/oak_shelf_extenders")));
 
         horizontalBlock(ModBlocks.SPRUCE_CHAIR.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/spruce_chair")));
 
-        horizontalBlock(ModBlocks.JUNGLE_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/jungle_shelf")));
 
         horizontalBlock(ModBlocks.JUNGLE_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/jungle_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.MANGROVE_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/mangrove_shelf")));
+
 
         horizontalBlock(ModBlocks.MANGROVE_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/mangrove_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.CHERRY_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/cherry_shelf")));
+
 
         horizontalBlock(ModBlocks.CHERRY_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/cherry_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.CRIMSON_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/crimson_shelf")));
+
 
         horizontalBlock(ModBlocks.CRIMSON_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/crimson_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.WARPED_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/warped_shelf")));
+
 
         horizontalBlock(ModBlocks.WARPED_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/warped_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.DARK_OAK_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/dark_oak_shelf")));
+
 
         horizontalBlock(ModBlocks.DARK_OAK_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/dark_oak_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.ACACIA_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/acacia_shelf")));
+
 
         horizontalBlock(ModBlocks.ACACIA_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/acacia_shelf_extenders")));
 
-        horizontalBlock(ModBlocks.SPRUCE_SHELF.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/spruce_shelf")));
+
 
         horizontalBlock(ModBlocks.SPRUCE_SHELF_EXTENDERS.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/spruce_shelf_extenders")));
@@ -253,47 +239,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.WOODEN_COUCH_END_YELLOW.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_end_yellow")));
 
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_BLUE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_blue")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_BROWN.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_brown")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_CYAN.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_cyan")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_GRAY.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_gray")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_GREEN.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_green")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_LIGHT_BLUE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_light_blue")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_LIGHT_GRAY.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_light_gray")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_LIME.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_lime")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_ORANGE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_orange")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_PINK.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_pink")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_PURPLE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_purple")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_RED.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_red")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_WHITE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_white")));
-
-        horizontalBlock(ModBlocks.WOODEN_COUCH_SINGLE_YELLOW.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_single_yellow")));
 
         horizontalBlock(ModBlocks.WOODEN_COUCH_EDGE_RIGHT_BLUE.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/wooden_couch_edge_right_blue")));
@@ -449,10 +394,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 new ModelFile.UncheckedModelFile(modLoc("block/large_couch_single_black")));
 
 
-
-        horizontalBlock(ModBlocks.MAILBOX.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/mailbox")));
-
         horizontalBlock(ModBlocks.OAK_LOG_SHELF.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/oak_log_shelf")));
 
@@ -534,8 +475,51 @@ public class ModBlockStateProvider extends BlockStateProvider {
         horizontalBlock(ModBlocks.SPRUCE_STUMP.get(),
                 new ModelFile.UncheckedModelFile(modLoc("block/spruce_stump")));
 
-        horizontalBlock(ModBlocks.OAK_CRATE.get(),
-                new ModelFile.UncheckedModelFile(modLoc("block/oak_crate")));
+        horizontalBlock(ModBlocks.OAK_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/oak_stool")));
+
+        horizontalBlock(ModBlocks.JUNGLE_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/jungle_stool")));
+
+        horizontalBlock(ModBlocks.MANGROVE_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/mangrove_stool")));
+
+        horizontalBlock(ModBlocks.CHERRY_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/cherry_stool")));
+
+        horizontalBlock(ModBlocks.CRIMSON_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/crimson_stool")));
+
+        horizontalBlock(ModBlocks.WARPED_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/warped_stool")));
+
+        horizontalBlock(ModBlocks.DARK_OAK_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/dark_oak_stool")));
+
+        horizontalBlock(ModBlocks.ACACIA_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/acacia_stool")));
+
+        horizontalBlock(ModBlocks.SPRUCE_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/spruce_stool")));
+
+        horizontalBlock(ModBlocks.BIRCH_STOOL.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/birch_stool")));
+
+        horizontalBlock(ModBlocks.BIRCH_CHAIR.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/birch_chair")));
+
+        horizontalBlock(ModBlocks.BIRCH_LOG_SHELF.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/birch_log_shelf")));
+
+        horizontalBlock(ModBlocks.BIRCH_TABLE.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/birch_table")));
+
+        horizontalBlock(ModBlocks.SINGLE_LEG_TABLE_BIRCH.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/single_leg_table_birch")));
+
+        horizontalBlock(ModBlocks.BIRCH_STUMP.get(),
+                new ModelFile.UncheckedModelFile(modLoc("block/birch_stump")));
+
 
 
 

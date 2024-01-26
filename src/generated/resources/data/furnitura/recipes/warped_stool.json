@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:warped_slab"
+    },
+    "B": {
+      "item": "minecraft:warped_stem"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "B B",
+    "B B"
+  ],
+  "result": {
+    "item": "furnitura:warped_stool"
+  },
+  "show_notification": true
+}

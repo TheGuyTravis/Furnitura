@@ -1,51 +1,51 @@
 {
   "variants": {
     "facing=north,open=true": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_open",
       "y": 0
     },
     "facing=north,open=false": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_closed",
       "y": 0
     },
     "facing=east,open=true": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_open",
       "y": 90
     },
     "facing=east,open=false": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_closed",
       "y": 90
     },
     "facing=south,open=true": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_open",
       "y": 180
     },
     "facing=south,open=false": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_closed",
       "y": 180
     },
     "facing=west,open=true": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_open",
       "y": 270
     },
     "facing=west,open=false": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_closed",
       "y": 270
     },
     "facing=down,open=false": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_closed",
       "y": 270
     },
     "facing=up,open=false": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_closed",
       "y": 270
     },
     "facing=down,open=true": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_open",
       "y": 270
     },
     "facing=up,open=true": {
-      "model": "furnitura:block/jungle_cabinet",
+      "model": "furnitura:block/jungle_cabinet_open",
       "y": 270
     }
   }

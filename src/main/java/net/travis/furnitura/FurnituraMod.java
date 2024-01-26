@@ -35,6 +35,7 @@ public class FurnituraMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModEntities.REGISTER.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
         modEventBus.addListener(ClientHandler::onRegisterRenderers);
 
 

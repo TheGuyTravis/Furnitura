@@ -1,17 +1,92 @@
 {
   "variants": {
-    "facing=east": {
+    "facing=east,type=corner_left": {
       "model": "furnitura:block/couch_single_red",
       "y": 90
     },
-    "facing=north": {
+    "facing=east,type=corner_right": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 90
+    },
+    "facing=east,type=left": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 90
+    },
+    "facing=east,type=middle": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 90
+    },
+    "facing=east,type=right": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 90
+    },
+    "facing=east,type=single": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 90
+    },
+    "facing=north,type=corner_left": {
       "model": "furnitura:block/couch_single_red"
     },
-    "facing=south": {
+    "facing=north,type=corner_right": {
+      "model": "furnitura:block/couch_single_red"
+    },
+    "facing=north,type=left": {
+      "model": "furnitura:block/couch_single_red"
+    },
+    "facing=north,type=middle": {
+      "model": "furnitura:block/couch_single_red"
+    },
+    "facing=north,type=right": {
+      "model": "furnitura:block/couch_single_red"
+    },
+    "facing=north,type=single": {
+      "model": "furnitura:block/couch_single_red"
+    },
+    "facing=south,type=corner_left": {
       "model": "furnitura:block/couch_single_red",
       "y": 180
     },
-    "facing=west": {
+    "facing=south,type=corner_right": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 180
+    },
+    "facing=south,type=left": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 180
+    },
+    "facing=south,type=middle": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 180
+    },
+    "facing=south,type=right": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 180
+    },
+    "facing=south,type=single": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 180
+    },
+    "facing=west,type=corner_left": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 270
+    },
+    "facing=west,type=corner_right": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 270
+    },
+    "facing=west,type=left": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 270
+    },
+    "facing=west,type=middle": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 270
+    },
+    "facing=west,type=right": {
+      "model": "furnitura:block/couch_single_red",
+      "y": 270
+    },
+    "facing=west,type=single": {
       "model": "furnitura:block/couch_single_red",
       "y": 270
     }

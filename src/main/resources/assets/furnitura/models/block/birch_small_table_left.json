@@ -1,0 +1,9 @@
+
+{
+	"parent": "furnitura:block/small_table_left",
+	"textures": {
+		"1": "block/birch_log",
+		"3": "block/stripped_birch_log",
+		"4": "block/birch_planks"
+	}
+}

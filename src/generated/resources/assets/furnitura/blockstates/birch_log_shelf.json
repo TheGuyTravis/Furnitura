@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "furnitura:block/birch_log_shelf",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "furnitura:block/birch_log_shelf"
+    },
+    "facing=south": {
+      "model": "furnitura:block/birch_log_shelf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "furnitura:block/birch_log_shelf",
+      "y": 270
+    }
+  }
+}

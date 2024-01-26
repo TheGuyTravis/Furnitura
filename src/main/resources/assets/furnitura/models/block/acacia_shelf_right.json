@@ -1,0 +1,7 @@
+{
+	"parent": "furnitura:block/shelf_left",
+	"textures": {
+		"2": "block/acacia_log",
+		"5": "block/acacia_planks"
+	}
+}

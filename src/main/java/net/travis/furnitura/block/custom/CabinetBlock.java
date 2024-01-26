@@ -1,155 +1,119 @@
 package net.travis.furnitura.block.custom;
 
+import com.google.common.collect.ImmutableList;
+import com.google.common.collect.ImmutableMap;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.server.level.ServerLevel;
-import net.minecraft.util.RandomSource;
-import net.minecraft.world.Container;
-import net.minecraft.world.Containers;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.inventory.AbstractContainerMenu;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.context.BlockPlaceContext;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
 import net.travis.furnitura.CabinetBlockEntity;
+import net.travis.furnitura.block.FurnitureHorizontalBlock;
+import net.travis.furnitura.util.VoxelShapeHelper;
 
 import javax.annotation.Nullable;
+import java.util.ArrayList;
+import java.util.List;
 
-public class CabinetBlock extends BaseEntityBlock {
-    public static final DirectionProperty FACING = BlockStateProperties.FACING;
-    public static final BooleanProperty OPEN = BlockStateProperties.OPEN;
+public class CabinetBlock extends FurnitureHorizontalBlock implements EntityBlock
+{
+    public static final BooleanProperty OPEN = BooleanProperty.create("open");
 
-    public CabinetBlock(BlockBehaviour.Properties pProperties) {
-        super(pProperties);
-        this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(OPEN, Boolean.valueOf(false)));
+    public final ImmutableMap<BlockState, VoxelShape> SHAPES;
+
+    public CabinetBlock(Properties properties)
+    {
+        super(properties);
+        this.registerDefaultState(this.getStateDefinition().any().setValue(DIRECTION, Direction.NORTH).setValue(OPEN, false));
+        SHAPES = this.generateShapes(this.getStateDefinition().getPossibleStates());
     }
 
-    public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
-        if (pLevel.isClientSide) {
+    private ImmutableMap<BlockState, VoxelShape> generateShapes(ImmutableList<BlockState> states)
+    {
+        final VoxelShape[] BASE = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(0, 0, 2, 16, 16, 16), Direction.SOUTH));
+
+        final VoxelShape[] CLOSED_ONE = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(1, 1, 2, 15, 15, 4), Direction.SOUTH));
+        final VoxelShape[] CLOSED_TWO = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(2, 5, 1, 3, 10, 2), Direction.SOUTH));
+        final VoxelShape[] OPEN_ONE = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(14, 1, -12, 16, 15, 2), Direction.SOUTH));
+        final VoxelShape[] OPEN_TWO = VoxelShapeHelper.getRotatedShapes(VoxelShapeHelper.rotate(Block.box(16, 5, -11, 17, 10, -10), Direction.SOUTH));
+
+
+        ImmutableMap.Builder<BlockState, VoxelShape> builder = new ImmutableMap.Builder<>();
+        for(BlockState state : states)
+        {
+            Direction direction = state.getValue(DIRECTION);
+            List<VoxelShape> shapes = new ArrayList<>();
+
+            if(state.getValue(OPEN))
+            {
+                shapes.add(OPEN_ONE[direction.get2DDataValue()]);
+                shapes.add(OPEN_TWO[direction.get2DDataValue()]);
+                shapes.add(BASE[direction.get2DDataValue()]);
+            }
+            else
+            {
+                shapes.add(CLOSED_ONE[direction.get2DDataValue()]);
+                shapes.add(CLOSED_TWO[direction.get2DDataValue()]);
+                shapes.add(BASE[direction.get2DDataValue()]);
+            }
+            builder.put(state, VoxelShapeHelper.combineAll(shapes));
+        }
+        return builder.build();
+    }
+
+    @Override
+    public VoxelShape getShape(BlockState state, BlockGetter reader, BlockPos pos, CollisionContext context)
+    {
+        return SHAPES.get(state);
+    }
+
+    @Override
+    public VoxelShape getOcclusionShape(BlockState state, BlockGetter reader, BlockPos pos)
+    {
+        return SHAPES.get(state);
+    }
+
+    @Override
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result)
+    {
+        if(state.getValue(DIRECTION) == result.getDirection())
+        {
+            if(!level.isClientSide())
+            {
+                if(level.getBlockEntity(pos) instanceof CabinetBlockEntity blockEntity)
+                {
+                    player.openMenu((CabinetBlockEntity)blockEntity);
+                }
+            }
             return InteractionResult.SUCCESS;
-        } else {
-            BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-            if (blockentity instanceof CabinetBlockEntity) {
-                pPlayer.openMenu((CabinetBlockEntity) blockentity);
-            }
-
-            return InteractionResult.CONSUME;
         }
+        return InteractionResult.PASS;
     }
 
-    public void onRemove(BlockState pState, Level pLevel, BlockPos pPos, BlockState pNewState, boolean pIsMoving) {
-        if (!pState.is(pNewState.getBlock())) {
-            BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-            if (blockentity instanceof Container) {
-                Containers.dropContents(pLevel, pPos, (Container) blockentity);
-                pLevel.updateNeighbourForOutputSignal(pPos, this);
-            }
 
-            super.onRemove(pState, pLevel, pPos, pNewState, pIsMoving);
-        }
-    }
 
-    public void tick(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom) {
-        BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-        if (blockentity instanceof CabinetBlockEntity) {
-            ((CabinetBlockEntity) blockentity).recheckOpen();
-        }
-
+    @Override
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder)
+    {
+        super.createBlockStateDefinition(builder);
+        builder.add(OPEN);
     }
 
     @Nullable
-    public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
-        return new CabinetBlockEntity(pPos, pState);
-    }
-
-    /**
-     * The type of render function called. MODEL for mixed tesr and static model, MODELBLOCK_ANIMATED for TESR-only,
-     * LIQUID for vanilla liquids, INVISIBLE to skip all rendering
-     *
-     * @deprecated call via {@link net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#getRenderShape}
-     * whenever possible. Implementing/overriding is fine.
-     */
-    public RenderShape getRenderShape(BlockState pState) {
-        return RenderShape.MODEL;
-    }
-
-    /**
-     * Called by BlockItem after this block has been placed.
-     */
-    public void setPlacedBy(Level pLevel, BlockPos pPos, BlockState pState, @Nullable LivingEntity pPlacer, ItemStack pStack) {
-        if (pStack.hasCustomHoverName()) {
-            BlockEntity blockentity = pLevel.getBlockEntity(pPos);
-            if (blockentity instanceof CabinetBlockEntity) {
-                ((CabinetBlockEntity) blockentity).setCustomName(pStack.getHoverName());
-            }
-        }
-
-    }
-
-    /**
-     * @deprecated call via {@link
-     * net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#hasAnalogOutputSignal} whenever possible.
-     * Implementing/overriding is fine.
-     */
-    public boolean hasAnalogOutputSignal(BlockState pState) {
-        return true;
-    }
-
-    /**
-     * @deprecated call via {@link
-     * net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#getAnalogOutputSignal} whenever possible.
-     * Implementing/overriding is fine.
-     */
-    public int getAnalogOutputSignal(BlockState pBlockState, Level pLevel, BlockPos pPos) {
-        return AbstractContainerMenu.getRedstoneSignalFromBlockEntity(pLevel.getBlockEntity(pPos));
-    }
-
-    /**
-     * Returns the blockstate with the given rotation from the passed blockstate. If inapplicable, returns the passed
-     * blockstate.
-     *
-     * @deprecated call via {@link net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#rotate} whenever
-     * possible. Implementing/overriding is fine.
-     */
-    public BlockState rotate(BlockState pState, Rotation pRotation) {
-        return pState.setValue(FACING, pRotation.rotate(pState.getValue(FACING)));
-    }
-
-    /**
-     * Returns the blockstate with the given mirror of the passed blockstate. If inapplicable, returns the passed
-     * blockstate.
-     *
-     * @deprecated call via {@link net.minecraft.world.level.block.state.BlockBehaviour.BlockStateBase#mirror} whenever
-     * possible. Implementing/overriding is fine.
-     */
-    public BlockState mirror(BlockState pState, Mirror pMirror) {
-        return pState.rotate(pMirror.getRotation(pState.getValue(FACING)));
-    }
-
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-        pBuilder.add(FACING, OPEN);
-    }
-
-    public BlockState getStateForPlacement(BlockPlaceContext pContext) {
-        return this.defaultBlockState().setValue(FACING, pContext.getNearestLookingDirection().getOpposite());
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state)
+    {
+        return new CabinetBlockEntity(pos, state);
     }
 }
-
-
-
-
-
-
-

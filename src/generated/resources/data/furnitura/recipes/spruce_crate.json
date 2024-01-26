@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:stripped_spruce_log"
+    },
+    "B": {
+      "item": "minecraft:spruce_log"
+    },
+    "C": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "ABA",
+    "ACA"
+  ],
+  "result": {
+    "item": "furnitura:spruce_crate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:jungle_log"
+    },
+    "B": {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ABA",
+    " C "
+  ],
+  "result": {
+    "item": "furnitura:jungle_mailbox"
+  },
+  "show_notification": true
+}

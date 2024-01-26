@@ -1,0 +1,9 @@
+{
+	"parent": "furnitura:block/couch_single",
+	"textures": {
+		"1": "block/oak_log",
+		"2": "block/red_wool",
+		"3": "block/stripped_oak_log",
+		"4": "block/oak_planks"
+	}
+}

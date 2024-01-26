@@ -1,0 +1,7 @@
+{
+	"parent": "furnitura:block/mailbox",
+	"textures": {
+		"2": "block/birch_log",
+		"5": "block/birch_planks"
+	}
+}
